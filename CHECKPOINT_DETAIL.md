@@ -36,7 +36,7 @@ Phạm vi: phần cơ bản theo [README](README.md), [BENCHMARK](BENCHMARK.md) 
 
 Giữ nguyên lỗi ký tự/khoảng trắng trong evidence để kiểm chứng được. Bốn câu thiếu evidence kiểm tra chi tiết theo nền tảng, chưa đại diện mọi kiểu thiếu bằng chứng. `starter/data/day6/` được Git bỏ qua.
 
-Đã kiểm tra 15 unit test và chạy TF-IDF trên dev: Hit@1 `9/15`, Evidence Hit@3 `10/15`, Context Evidence Rate `9/15`; kết quả tại `starter/results/tfidf-dev/`. Chưa chạy agent thật hoặc benchmark test. Quyền sử dụng tài liệu kế thừa Lab 6, hiện manifest Lab 6 chưa ghi giấy phép; corpus đầy đủ chỉ nằm ở dữ liệu local.
+Đã kiểm tra 21 unit test và chạy TF-IDF trên dev: Hit@1 `9/15`, Evidence Hit@3 `10/15`, Context Evidence Rate `9/15`; kết quả tại `starter/results/tfidf-dev/`. Chưa chạy agent thật hoặc benchmark test. Quyền sử dụng tài liệu kế thừa Lab 6, hiện manifest Lab 6 chưa ghi giấy phép; corpus đầy đủ chỉ nằm ở dữ liệu local.
 
 ## 2. Checklist triển khai và đánh giá
 
@@ -44,14 +44,16 @@ Giữ nguyên lỗi ký tự/khoảng trắng trong evidence để kiểm chứn
 
 ### 2.1. Dense retrieval
 
-- [ ] Nạp cấu hình kết nối DB trong code Lab 7.
-- [ ] Nạp embedding model đúng revision của Lab 6.
-- [ ] Áp dụng đúng query prompt và cách chuẩn hóa của Lab 6.
-- [ ] Kiểm tra vector query có 768 chiều.
-- [ ] Viết hàm tìm vector trong collection C với `top_k` cấu hình được.
-- [ ] Áp dụng metadata filter từ đầu vào câu hỏi.
-- [ ] Chuyển kết quả về schema chunk Lab 7, giữ score/rank và nguồn.
-- [ ] Báo lỗi DB/embedding rõ ràng, không thay bằng kết quả giả.
+- [x] Nạp cấu hình kết nối DB trong code Lab 7.
+- [x] Nạp embedding model đúng revision của Lab 6.
+- [x] Áp dụng đúng query prompt và cách chuẩn hóa của Lab 6.
+- [x] Kiểm tra vector query có 768 chiều.
+- [x] Viết hàm tìm vector trong collection C với `top_k` cấu hình được.
+- [x] Áp dụng metadata filter từ đầu vào câu hỏi.
+- [x] Chuyển kết quả về schema chunk Lab 7, giữ score/rank và nguồn.
+- [x] Báo lỗi DB/embedding rõ ràng, không thay bằng kết quả giả.
+
+Code: [src/dense.py](src/dense.py); cách chạy: [src/README.md](src/README.md). Đã kiểm tra thật `d7-dev-01` không filter, top-k 3 và `d7-dev-07` có filter, top-k 2; cả hai tìm được evidence. Trace local: `starter/results/dense/dev-smoke.json`. Kết nối chỉ đọc, checksum DB trước/sau không đổi; chưa chạy benchmark dense đầy đủ.
 
 ### 2.2. Lexical retrieval
 
@@ -111,7 +113,7 @@ Giữ nguyên lỗi ký tự/khoảng trắng trong evidence để kiểm chứn
 - [ ] Đếm câu trả lời có citation.
 - [ ] Báo lỗi provider riêng, không tính thành câu trả lời đúng hoặc từ chối đúng.
 - [ ] Xuất số đếm `n/N` và tỷ lệ; mẫu số 0 ghi không áp dụng.
-- [x] Chạy 15 unit test có sẵn; tất cả đạt.
+- [x] Chạy 21 unit test (15 có sẵn + 6 kiểm tra dense); tất cả đạt.
 
 ### 2.8. Chấm thủ công
 

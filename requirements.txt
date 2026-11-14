@@ -1,0 +1,6 @@
+psycopg[binary]==3.3.8
+python-dotenv==1.2.4
+numpy==2.4.6
+torch==2.15.0
+transformers==5.22.2
+huggingface-hub==2.4.0
