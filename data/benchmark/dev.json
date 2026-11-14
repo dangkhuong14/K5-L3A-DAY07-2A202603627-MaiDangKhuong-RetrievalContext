@@ -1,0 +1,313 @@
+[
+  {
+    "id": "d7-dev-01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Theo sách, việc bộc lộ tài năng quá mức trước cấp trên có thể gây phản tác dụng như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Có thể khiến cấp trên cảm thấy e ngại và bất an.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 18,
+        "evidence": "Trong khi gây ấn tượng và thỏa mãn họ, bạn đừng quá đ{, nghĩa l{ đ ừng bộc lộ t{i năng, nếu không b ạn sẽ bị phản tác d ụng: bạn s ẽ khiến họ e ng ại và b ất an."
+      }
+    ],
+    "origin": "lab6:benchmark/questions.json#q01"
+  },
+  {
+    "id": "d7-dev-02",
+    "split": "dev",
+    "type": "chi_tiet_lich_su",
+    "question": "Theo câu chuyện Fouquet, ai được Louis XIV chọn làm người kế nhiệm ông?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Jean-Baptiste Colbert.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 20,
+        "evidence": "Để có người k ế nhiệm Fouquet, vua ch ọn Jean - Baptiste Colbert, vốn nổi tiếng về tính tằn tiện, về những buổi tiếp t}n ch|n chư ờng nhất Paris."
+      }
+    ],
+    "origin": "lab6:benchmark/questions.json#q02"
+  },
+  {
+    "id": "d7-dev-03",
+    "split": "dev",
+    "type": "chi_tiet_lich_su",
+    "question": "Theo sách, năm 1610 Cosimo II đã bổ nhiệm Galileo vào những chức vụ nào và với chế độ lương bổng ra sao?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Triết gia và nhà toán học chính thức của triều đình, được hưởng đầy đủ lương bổng.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 23,
+        "evidence": "V{o năm 1610, Cosimo II b ổ nhiệm Galileo làm tri ết gia và nhà toán h ọc chính th ức của tri ều đình, kèm lương b ổng đ ầy đ ủ."
+      }
+    ],
+    "origin": "lab6:benchmark/questions.json#q03"
+  },
+  {
+    "id": "d7-dev-04",
+    "split": "dev",
+    "type": "giai_thich",
+    "question": "Vì sao tác giả cho rằng một kẻ thù cũ được thu nhận có thể trung thành hơn bạn bè?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Vì người đó cần chứng minh lòng trung thành nhiều hơn.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 30,
+        "evidence": "Hãy thu nhận một kẻ thù cũ v{ h ắn sẽ trung kiên hơn b ạn bè, vì hắn cần phải chứng minh nhi ều hơn."
+      }
+    ],
+    "origin": "lab6:benchmark/questions.json#q04"
+  },
+  {
+    "id": "d7-dev-05",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Theo sách, vì sao việc không để lộ ý đồ khiến người khác khó chuẩn bị đối phó?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Vì khi không biết ta sắp làm gì, họ không thể phòng xa.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 43,
+        "evidence": "Một khi không thể biết đầu dây mối nhợ việc ta s ắp làm họ sẽ không thể phòng xa."
+      }
+    ],
+    "origin": "lab6:benchmark/questions.json#q05"
+  },
+  {
+    "id": "d7-dev-06",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Theo sách, nói quá nhiều để gây ấn tượng có thể khiến người nói bị nhìn nhận ra sao và mất điều gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Người nói có thể trông tầm thường hơn và mất khả năng kiểm soát.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 70,
+        "evidence": "Bạn đ ịnh t ạo ấn tư ợng v ới m ọi ngư ời b ằng l ời nói, nhưng h ễ nói càng nhi ều thì b ạn càng có v ẻ tầm thường và mất đi kh ả năng kiểm soát."
+      }
+    ],
+    "origin": "lab6:benchmark/questions.json#q06"
+  },
+  {
+    "id": "d7-dev-07",
+    "split": "dev",
+    "type": "ngoai_le",
+    "question": "Trong phần nghịch đảo của Nguyên tắc 4, khi nào im lặng có thể trở thành lựa chọn thiếu khôn ngoan?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Khi sự im lặng khiến người khác, đặc biệt là cấp trên, nghi ngờ và bất an; vì thế cần dùng chiến thuật ít nói đúng lúc.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 79,
+        "evidence": "Có những lúc n ếu mãi câm mi ệng thì l ại không khôn ngoan. Có nh ững tình hu ống s ự im l ặng sẽ l{m ngư ời khác nghi ng ờ và cảm thấy bất an, đặc biệt và với thượng cấp của ta. Một lời nói mơ hồ nước đôi s ẽ giúp b ạn thanh minh nh ững l ời đ ồn đ~i m{ b ạn không ngờ tới. Vì vậy im lặng và ít nói là những chiến thuật mà bạn phải cẩn thận khi sử dụng và ch ỉ sử dụng đúng lúc."
+      }
+    ],
+    "origin": "lab6:benchmark/questions.json#q07",
+    "filter": {
+      "section": "nguyen_tac_04"
+    }
+  },
+  {
+    "id": "d7-dev-08",
+    "split": "dev",
+    "type": "giai_thich",
+    "question": "Theo sách, khi thanh danh tuột dốc thì người đó phải đối mặt với nguy cơ nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Dễ bị tổn thương và bị tấn công từ mọi phía.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 80,
+        "evidence": "Tuy nhiên khi thanh danh tu ột dốc thì bạn d ễ bị tổn thương v{ b ị tấn công t ừ mọi phía."
+      }
+    ],
+    "origin": "lab6:benchmark/questions.json#q08"
+  },
+  {
+    "id": "d7-dev-09",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Theo sách, việc khiến đối phương phải đến với mình tác động thế nào đến kế hoạch ban đầu của họ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Buộc đối phương phải thay đổi kế hoạch ban đầu.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 123,
+        "evidence": "Khiến cho đối phương đến với ta, v{ như vậy hắn ph ải thay đ ổi k ế hoạch ban đ ầu."
+      }
+    ],
+    "origin": "lab6:benchmark/questions.json#q09"
+  },
+  {
+    "id": "d7-dev-10",
+    "split": "dev",
+    "type": "giai_thich",
+    "question": "Theo sách, vì sao chiến thắng bằng lý luận có thể gây bất lợi lâu dài?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Vì sự oán giận và ác tâm bị khơi lên có thể kéo dài hơn việc đối phương tạm thời thay đổi ý kiến.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 134,
+        "evidence": "Sự oán giận và ác tâm mà b ạn đ~ khuấy lên sẽ dai dẳng hơn việc đối phương tạm thời thay đổi ý kiến."
+      }
+    ],
+    "origin": "lab6:benchmark/questions.json#q10"
+  },
+  {
+    "id": "d7-dev-11",
+    "split": "dev",
+    "type": "metadata",
+    "question": "Trong phạm vi Nguyên tắc 13, khi cần đồng minh giúp đỡ, tác giả đề nghị nhấn mạnh điều gì thay vì nhắc lại ân tình cũ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Nhấn mạnh những lợi ích mà đồng minh sẽ nhận được khi hai bên liên kết.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 178,
+        "evidence": "Khi c ần đ ồng minh giúp đ ỡ, đ ừng nh ắc nh ở việc h ắn thụ ân ta trong quá kh ứ. H ắn s ẽ tìm cách ph ớt l ờ. Ngược lại, hãy cho h ắn thấy những lợi ích s ẽ đạt được khi hai bên liên k ết, v{ ta h~y phóng đ ại kh oản l ợi nhuận ấy nhiều lên. H ắn sẽ nhiệt tình tr ợ giúp khi bi ết rõ có lời."
+      }
+    ],
+    "origin": "lab6:benchmark/questions.json#q11",
+    "filter": {
+      "section": "nguyen_tac_13"
+    }
+  },
+  {
+    "id": "d7-dev-12",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Theo sách, cần có điều kiện gì trước khi thỉnh thoảng ẩn mặt để tạo sự quý hiếm, và việc ẩn mặt nhằm tác động gì đến tập thể?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Cần đã có vị trí trong tập thể; việc thỉnh thoảng ẩn mặt khiến mọi người bàn tán, thậm chí ngưỡng mộ.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 209,
+        "evidence": "Khi đ~ có vị trí trong tập thể, thỉnh thoảng ta nên ẩn mặt để mọi người bàn tán, th ậm chí ngưỡng mộ."
+      }
+    ],
+    "origin": "lab6:benchmark/questions.json#q12"
+  },
+  {
+    "id": "d7-dev-13",
+    "split": "dev",
+    "type": "giai_thich",
+    "question": "Theo sách, vì sao tự cô lập trong một nơi có vẻ an toàn lại làm tăng rủi ro?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Vì mất nguồn thông tin và trở thành một mục tiêu quá lộ liễu, dễ bị tấn công.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 233,
+        "evidence": "Nhưng tình tr ạng cô l ập này lại an ít nguy nhi ều, bởi vì ta sẽ mất nguồn thông tin, trở thành một con mồi quá l ộ liễu và d ễ bắn h ạ."
+      }
+    ],
+    "origin": "lab6:benchmark/questions.json#q13"
+  },
+  {
+    "id": "d7-dev-14",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Trong ví dụ đào giếng của sách, đào sâu một giếng thay vì đào nhiều giếng qua loa minh họa cho cách phân bổ sức mạnh nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Tập trung sức mạnh và năng lực vào chỗ mạnh nhất thay vì phân tán.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 297,
+        "evidence": "Duy trì sức mạnh v{ năng lực bằng cách giữ chúng tập trung vào chỗ mạnh nhất. Nếu đ{o gi ếng h~y đ{o c{ng sâu càng t ốt, thay vì đ{o qua loa gi ếng này r ồi nh ảy sang đ{o gi ếng mới."
+      }
+    ],
+    "origin": "lab6:benchmark/questions.json#q14"
+  },
+  {
+    "id": "d7-dev-15",
+    "split": "dev",
+    "type": "metadata",
+    "question": "Trong phạm vi Nguyên tắc 29, lập kế hoạch cần tính đến những yếu tố nào có thể khiến công sức bị đổ bể?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Cần tính đến các hậu quả, chướng ngại và may rủi có thể làm hỏng công sức hoặc khiến người khác hưởng vinh quang.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 399,
+        "evidence": "Hãy lập kế hoạch cho đến cùng đích, nghi nhận mọi hậu quả, chướng ngại và may r ủi khả dĩ đ|nh đ ổ công s ức c ủa mình v{ l{m ngư ời khác vinh quang."
+      }
+    ],
+    "origin": "lab6:benchmark/questions.json#q15",
+    "filter": {
+      "section": "nguyen_tac_29"
+    }
+  },
+  {
+    "id": "d7-dev-u01",
+    "split": "dev",
+    "type": "thieu_bang_chung",
+    "question": "Theo sách, để bảo vệ thanh danh trên LinkedIn, phải trả lời một bình luận bôi nhọ trong tối đa bao nhiêu giờ?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chương 5 bàn về bảo vệ thanh danh nhưng không đưa ra thời hạn phản hồi trên LinkedIn. Lời khuyên chung không đủ để suy ra số giờ được hỏi.",
+    "absence_check": {
+      "scope": "667 trang vật lý 18–684 và toàn bộ 2864 chunk collection C; không giới hạn top-k hoặc filter.",
+      "method": "Tìm không phân biệt hoa thường, chuẩn hóa Unicode và bỏ khoảng trắng; đối chiếu nội dung chương 5, trang 80–91.",
+      "searched_term": "LinkedIn",
+      "page_hits": 0,
+      "chunk_hits": 0
+    }
+  },
+  {
+    "id": "d7-dev-u02",
+    "split": "dev",
+    "type": "thieu_bang_chung",
+    "question": "Theo sách, để thu hút chú ý trên TikTok, cần đăng chính xác bao nhiêu video mỗi ngày?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chương 6 bàn về thu hút chú ý nhưng không quy định số video TikTok phải đăng mỗi ngày. Lời khuyên chung không đủ để suy ra con số được hỏi.",
+    "absence_check": {
+      "scope": "667 trang vật lý 18–684 và toàn bộ 2864 chunk collection C; không giới hạn top-k hoặc filter.",
+      "method": "Tìm không phân biệt hoa thường, chuẩn hóa Unicode và bỏ khoảng trắng; đối chiếu nội dung chương 6, trang 92–112.",
+      "searched_term": "TikTok",
+      "page_hits": 0,
+      "chunk_hits": 0
+    }
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "id": "d7-test-01",
+    "split": "test",
+    "type": "ngoai_le",
+    "question": "Trong Nguyên tắc 6, khi đứng trước vua chúa hoặc người có vị thế tương đương, có nên cố trở thành tâm điểm chú ý không? Theo sách nên làm gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Không; nên âm thầm rút lui vào bóng tối khi đứng trước vua chúa hoặc các vị tương đương.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 112,
+        "evidence": "Ch ẳng h ạn như khi đ ứng trư ớc vua chúa ho ặc các vị tương đương, bạn nên âm thầm rút lui vào bóng tối."
+      }
+    ],
+    "filter": {
+      "section": "nguyen_tac_06"
+    }
+  },
+  {
+    "id": "d7-test-02",
+    "split": "test",
+    "type": "chi_tiet_lich_su",
+    "question": "Theo câu chuyện Tesla làm việc cho Edison tại New York, mỗi ngày Tesla dành bao nhiêu giờ để cải tiến những bộ dynamo ban đầu của Edison?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "18 giờ mỗi ngày.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 114,
+        "evidence": "Mỗi ngày Tesla làm vi ệc 18 ti ếng để tìm cách cái tiến những bộ dynamo ban đầu của Edison."
+      }
+    ]
+  },
+  {
+    "id": "d7-test-03",
+    "split": "test",
+    "type": "ngoai_le",
+    "question": "Trong phần nghịch đảo của Nguyên tắc 10, tác giả có chấp nhận ngoại lệ cho nguyên tắc tránh kẻ xấu số không, và phạm vi áp dụng được mô tả ra sao?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Không chấp nhận nghịch đảo nào; nguyên tắc được mô tả là đúng cho mọi lúc mọi nơi.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 154,
+        "evidence": "Nguyên tắc này không chấp nhận nghịch đảo nào cả. Nó đúng cho mọi lúc m ọi nơi."
+      }
+    ],
+    "filter": {
+      "section": "nguyen_tac_10"
+    }
+  },
+  {
+    "id": "d7-test-04",
+    "split": "test",
+    "type": "giai_thich",
+    "question": "Trong phần kết của Nguyên tắc 11, đặt mình vào vị trí phụ thuộc lẫn nhau giúp tránh sức ép nào, và vì sao người ngồi trên vẫn lệ thuộc mình?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Giúp tránh sức ép mà người ở đỉnh cao thường chịu; người ngồi trên vẫn lệ thuộc vì họ cần đến mình.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 166,
+        "evidence": "Như th ế ta sẽ không bị sức ép mà kẻ ngồi trên đ ỉnh cao thư ờng bị, và th ực chất người ngồi trên bạn sẽ lệ thuộc bạn, bởi vì hắn cần đến bạn."
+      }
+    ],
+    "filter": {
+      "section": "nguyen_tac_11"
+    }
+  },
+  {
+    "id": "d7-test-05",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Theo Nguyên tắc 12, những động tác tốt bụng và bao dung tác động thế nào đến sự cảnh giác của người đa nghi?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Làm hạ thấp sự cảnh giác của ngay cả những người đa nghi nhất.",
+    "gold": [
+      {
+        "source_id": "48-nguyen-tac-chu-chot",
+        "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+        "page": 167,
+        "evidence": "Những động tác tốt bụng và bao dung s ẽ hạ thấp sự cảnh giác c ủa những người đa nghi nh ất."
+      }
+    ],
+    "filter": {
+      "section": "nguyen_tac_12"
+    }
+  },
+  {
+    "id": "d7-test-u01",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "question": "Theo sách, trong cuộc họp Zoom với cấp trên, nên im lặng chính xác bao nhiêu giây trước khi trả lời để không gây nghi ngờ?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chương 4 bàn về ít nói và ngoại lệ của im lặng nhưng không quy định thời gian chờ tính bằng giây trong Zoom. Lời khuyên chung không đủ để suy ra con số được hỏi.",
+    "absence_check": {
+      "scope": "667 trang vật lý 18–684 và toàn bộ 2864 chunk collection C; không giới hạn top-k hoặc filter.",
+      "method": "Tìm không phân biệt hoa thường, chuẩn hóa Unicode và bỏ khoảng trắng; đối chiếu nội dung chương 4, trang 70–79.",
+      "searched_term": "Zoom",
+      "page_hits": 0,
+      "chunk_hits": 0
+    }
+  },
+  {
+    "id": "d7-test-u02",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "question": "Theo sách, khi nhờ đồng minh hỗ trợ qua Microsoft Teams, cần đề nghị chia chính xác bao nhiêu phần trăm lợi nhuận để họ đồng ý?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chương 13 khuyên nhấn mạnh lợi ích của đồng minh nhưng không ấn định tỷ lệ chia lợi nhuận cho lời nhờ hỗ trợ qua Microsoft Teams. Lời khuyên chung không đủ để suy ra tỷ lệ được hỏi.",
+    "absence_check": {
+      "scope": "667 trang vật lý 18–684 và toàn bộ 2864 chunk collection C; không giới hạn top-k hoặc filter.",
+      "method": "Tìm không phân biệt hoa thường, chuẩn hóa Unicode và bỏ khoảng trắng; đối chiếu nội dung chương 13, trang 178–187.",
+      "searched_term": "MicrosoftTeams",
+      "page_hits": 0,
+      "chunk_hits": 0
+    }
+  }
+]

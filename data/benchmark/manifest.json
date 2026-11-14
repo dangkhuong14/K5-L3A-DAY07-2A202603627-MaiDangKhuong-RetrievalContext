@@ -1,0 +1,232 @@
+{
+  "benchmark": "day7-basic-v1",
+  "created_on": "2026-11-14",
+  "scope": "Basic assignment; no advanced multimodal benchmark.",
+  "corpus": {
+    "lab6_root": "D:\\AI_ThucChien\\Lab6\\K5-L3A-DAY06-2A202603627-DataIngestion",
+    "source_id": "48-nguyen-tac-chu-chot",
+    "title": "48 nguyên tắc chủ chốt của quyền lực",
+    "source": "data/20.1.11. 48 nguyên tắc chủ chốt.pdf",
+    "source_sha256": "27fc7a03d0f24b46f39a4fc2cb2c94660403277da14f66715ee07513afa0f3ba",
+    "license_or_permission": null,
+    "page_numbering": "Physical PDF page, 1-based; not the printed page label.",
+    "content_page_range": [
+      18,
+      684
+    ],
+    "content_pages": 667,
+    "database": "day6_lab",
+    "table": "ingestion_vectors",
+    "collection": "C",
+    "chunks": 2864,
+    "db_snapshot_digest": "efb5ed762003e52c8804fad05156f9fe",
+    "db_snapshot_digest_method": "MD5 of string_agg(chunk_id || content || metadata::text || embedding::text, ordered by chunk_id); same method as Lab 6 PgVectorStore.snapshot.",
+    "embedding_profile": {
+      "model": "google/embeddinggemma-2",
+      "revision": "f9972ac22e696a105c482202646979e33e4b5a1e",
+      "dimensions": 768,
+      "document_prompt": "title: none | text: ",
+      "query_prompt": "task: search result | query: ",
+      "normalized": true,
+      "dtype": "float32",
+      "modalities": "text_only",
+      "max_sequence_length": 8192,
+      "pooling": "attention_mask_mean_including_prompt_and_special_tokens",
+      "implementation": "transformers.AutoModel"
+    },
+    "local_chunk_export": "starter/data/day6/chunks.json",
+    "recreate_from": "D:\\AI_ThucChien\\Lab6\\K5-L3A-DAY06-2A202603627-DataIngestion\\starter\\results\\read_chunk\\chunks_B.jsonl",
+    "full_corpus_in_git": false
+  },
+  "splits": {
+    "dev": {
+      "path": "data/benchmark/dev.json",
+      "answerable": 15,
+      "unanswerable": 2,
+      "total": 17,
+      "sha256": "79d9509ded0738ca64d391ba7b519b3c75c0ccf76c5ca7e6994bd91d5127483f"
+    },
+    "test": {
+      "path": "data/benchmark/test.json",
+      "answerable": 5,
+      "unanswerable": 2,
+      "total": 7,
+      "sha256": "a878c470b36014be78d0640c8edab87b4618a71e24f4cb03e621f60e90eca43b"
+    }
+  },
+  "provenance": {
+    "dev_answerable": "Reused Lab 6 dev q01-q15; kept questions/answers/filters and trimmed trailing whitespace from verbatim evidence.",
+    "test_answerable": "Five new questions from physical pages 112, 114, 154, 166, 167; none reuse Lab 6 test questions.",
+    "unanswerable": "Four new near-topic requests for platform-specific numeric prescriptions absent from the corpus; per-case full-corpus checks in absence_check.",
+    "authorship": "AI-assisted benchmark preparation; reference labels checked against corpus. Agent answer/citation/context reviews must be completed after real runs."
+  },
+  "evaluation": {
+    "status": "dev_tfidf_only; real_agent_and_test_not_run",
+    "configuration_selected": false,
+    "reference": "BENCHMARK.md",
+    "input_allowlist": [
+      "question",
+      "filter"
+    ],
+    "retrieval_denominators": {
+      "dev": 15,
+      "test": 5
+    },
+    "agent_case_counts": {
+      "dev": 17,
+      "test": 7
+    },
+    "gold_semantics": "Each gold item is an alternative; one source/page match with the entire evidence substring is sufficient. No multi-hop cases.",
+    "test_policy": "Do not use test runs to tune configurations. Freeze configuration on dev before running baseline and selected configuration on test.",
+    "dev_tfidf_smoke_run": {
+      "summary_path": "starter/results/tfidf-dev/summary.json",
+      "traces_path": "starter/results/tfidf-dev/traces.json",
+      "answerable_cases": 15,
+      "hit1": "9/15",
+      "hit3": "10/15",
+      "context_evidence": "9/15",
+      "budget_chars": 800
+    }
+  },
+  "validation": {
+    "db_read_only_verified": true,
+    "db_profile_matches_lab6_selection_lock": true,
+    "all_exported_chunks_equal_lab6_B": true,
+    "gold_checks": [
+      "source_id",
+      "source",
+      "physical_page",
+      "verbatim_evidence_in_chunk_and_page",
+      "filter_matches_gold_chunk"
+    ],
+    "gold_cases_validated": 20,
+    "absence_checks_validated": 4,
+    "unique_case_ids": 24,
+    "unique_questions": 24,
+    "dev_test_question_overlap": 0,
+    "lab6_test_questions_reused": 0,
+    "gold_chunk_matches": [
+      {
+        "query_id": "d7-dev-01",
+        "chunk_ids": [
+          "bc33bc558a7c7275200a14f1c9549a5134b3c41dca5f8b467d59d5bbc0d68658"
+        ]
+      },
+      {
+        "query_id": "d7-dev-02",
+        "chunk_ids": [
+          "c3dca4a79f07e579f3afd17e90f0268d9e0aa3d0c7d9f33fc68519f84d7f2800"
+        ]
+      },
+      {
+        "query_id": "d7-dev-03",
+        "chunk_ids": [
+          "c4a07a2639a065f68c6837b78c949a74867e562d9c386119b9f483c79c7e2093"
+        ]
+      },
+      {
+        "query_id": "d7-dev-04",
+        "chunk_ids": [
+          "2ef22d5b4dce3a9072ec145da2c0e43396dfa5a072adbb18d7b708cc18baf99b"
+        ]
+      },
+      {
+        "query_id": "d7-dev-05",
+        "chunk_ids": [
+          "6c481a8b12004e3e483e309a34ccc8822a86b4de795c1e5eb86d1e5e0307a20d"
+        ]
+      },
+      {
+        "query_id": "d7-dev-06",
+        "chunk_ids": [
+          "f25d9c3b25569a883f3b11389b5a07fcade87c515cdfe17369f1b1b43bbd4115"
+        ]
+      },
+      {
+        "query_id": "d7-dev-07",
+        "chunk_ids": [
+          "1810c07e0b53d39262029a680ade2fd065ddd4276748cd9dd0b87115369247a7"
+        ]
+      },
+      {
+        "query_id": "d7-dev-08",
+        "chunk_ids": [
+          "b2fd9f865a9876e8dd75210c33dad06d6e7e6f3170fc2336480ce5e5bbb34450"
+        ]
+      },
+      {
+        "query_id": "d7-dev-09",
+        "chunk_ids": [
+          "5d66020a7eb39016b628e9d0216aa1a66d692ab7be46121d4086f89c7c67afd7"
+        ]
+      },
+      {
+        "query_id": "d7-dev-10",
+        "chunk_ids": [
+          "954c212196f175f493f6bf3d651ed9c8568f200e659b34987866e2ed1267a136"
+        ]
+      },
+      {
+        "query_id": "d7-dev-11",
+        "chunk_ids": [
+          "e27e8bc2a45b271584106ccc89a56aac0a0c2413debbe0bbab7420b5a20852f0"
+        ]
+      },
+      {
+        "query_id": "d7-dev-12",
+        "chunk_ids": [
+          "2f4a720b4f2875d8682e6c5e1ffcf67d178b5803dd303b2418094456acd646f1"
+        ]
+      },
+      {
+        "query_id": "d7-dev-13",
+        "chunk_ids": [
+          "52c5dfeb0cdfee18d1023724b5767f80e84b570a1ee41af722686c2a309a2362"
+        ]
+      },
+      {
+        "query_id": "d7-dev-14",
+        "chunk_ids": [
+          "1360244bff7b52b05183c493ea34477eba2648b885fedf8011e8f5f096c61336"
+        ]
+      },
+      {
+        "query_id": "d7-dev-15",
+        "chunk_ids": [
+          "63e08b725bb05f4630bfb4cc4358377fb48472aed1e074a999dc001c89d1eebb"
+        ]
+      },
+      {
+        "query_id": "d7-test-01",
+        "chunk_ids": [
+          "f9543a2a8eb233a8e97aacad0c49e1109e7bb3f6a4ef3cd09c0e8c2f9cbd62f3"
+        ]
+      },
+      {
+        "query_id": "d7-test-02",
+        "chunk_ids": [
+          "d291725d59539f3d78fe972c02c244ba6aae572f576aff490e52318092082829"
+        ]
+      },
+      {
+        "query_id": "d7-test-03",
+        "chunk_ids": [
+          "dd1e5da7d797aa2feb6f1d5474aefcd3abb645b902fc2d882ae1e86591103cf4"
+        ]
+      },
+      {
+        "query_id": "d7-test-04",
+        "chunk_ids": [
+          "69499b3ce5462b649819d5dc0520a2fee43bcd6b9e0ad7d115b01e8f04a14822"
+        ]
+      },
+      {
+        "query_id": "d7-test-05",
+        "chunk_ids": [
+          "7f1344507e6d6359a1b606494d2da411c297112376d8fa9cf66a14a53c98627e"
+        ]
+      }
+    ],
+    "existing_unit_tests_passed": 15
+  }
+}
