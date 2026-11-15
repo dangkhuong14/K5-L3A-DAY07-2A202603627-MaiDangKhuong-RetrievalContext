@@ -36,7 +36,7 @@ Phạm vi: phần cơ bản theo [README](README.md), [BENCHMARK](BENCHMARK.md) 
 
 Giữ nguyên lỗi ký tự/khoảng trắng trong evidence để kiểm chứng được. Bốn câu thiếu evidence kiểm tra chi tiết theo nền tảng, chưa đại diện mọi kiểu thiếu bằng chứng. `starter/data/day6/` được Git bỏ qua.
 
-Đã kiểm tra 21 unit test và chạy TF-IDF trên dev: Hit@1 `9/15`, Evidence Hit@3 `10/15`, Context Evidence Rate `9/15`; kết quả tại `starter/results/tfidf-dev/`. Chưa chạy agent thật hoặc benchmark test. Quyền sử dụng tài liệu kế thừa Lab 6, hiện manifest Lab 6 chưa ghi giấy phép; corpus đầy đủ chỉ nằm ở dữ liệu local.
+Đã kiểm tra 21 unit test và chạy TF-IDF trên dev: Hit@1 `9/15`, Evidence Hit@3 `10/15`, Context Evidence Rate `9/15`; kết quả tại `starter/results/tfidf-dev/`. Sau đó đã chạy agent thật trên dev và test (mục 2.4–2.11). Quyền sử dụng tài liệu kế thừa Lab 6, hiện manifest Lab 6 chưa ghi giấy phép; corpus đầy đủ chỉ nằm ở dữ liệu local.
 
 ## 2. Checklist triển khai và đánh giá
 
@@ -227,14 +227,30 @@ Output: `results/retrieval-test/<config>/`, `results/agent-test/<config>/` (`tra
 
 ### 2.12. Báo cáo và nộp bài
 
-- [ ] Sao chép [mẫu báo cáo](report/individual/MSSV_HoTen.md), đổi tên theo MSSV/họ tên.
-- [ ] Điền bảng so sánh retrieval/context.
-- [ ] Điền bảng đánh giá agent/citation/abstention.
-- [ ] Trình bày một câu trả lời có bằng chứng.
-- [ ] Trình bày một câu thiếu bằng chứng được từ chối.
-- [ ] Trình bày một lỗi và giới hạn còn lại.
-- [ ] Ghi lệnh chạy và đường dẫn cấu hình, trace, nhãn, kết quả.
-- [ ] Hoàn tất [checklist nộp bài](SUBMISSION.md).
+- [x] Sao chép [mẫu báo cáo](report/individual/MSSV_HoTen.md), đổi tên theo MSSV/họ tên.
+- [x] Điền bảng so sánh retrieval/context.
+- [x] Điền bảng đánh giá agent/citation/abstention.
+- [x] Trình bày một câu trả lời có bằng chứng.
+- [x] Trình bày một câu thiếu bằng chứng được từ chối.
+- [x] Trình bày một lỗi và giới hạn còn lại.
+- [x] Ghi lệnh chạy và đường dẫn cấu hình, trace, nhãn, kết quả.
+- [x] Hoàn tất [checklist nộp bài](SUBMISSION.md).
+
+Báo cáo: [report/individual/2A202603627_MaiDangKhuong.md](report/individual/2A202603627_MaiDangKhuong.md); mẫu gốc giữ nguyên. Ví dụ có bằng chứng: `d7-test-05`, `d7-dev-09`; từ chối đúng: `d7-test-u01`; lỗi: `d7-dev-05` (citation sai), `d7-dev-03` (từ chối nhầm), `d7-test-02` (lỗi provider).
+
+Đối chiếu checklist nộp bài:
+
+| Mục trong SUBMISSION.md | Bằng chứng |
+|---|---|
+| Code agent, ≥3 phương pháp retrieval (gồm dense), test, hướng dẫn chạy | `src/` (dense, BM25, hybrid RRF, TF-IDF, agent), 35 unit test trong `tests/`, lệnh chạy trong báo cáo |
+| Embedding, vector store, cách kết nối, dữ liệu hoặc cách tái tạo | Manifest, `.env.example`, `src/dense.py`; chunk/PDF không đưa lên Git, tái tạo theo mục 4 |
+| Benchmark ≥20 câu có evidence + 4 câu thiếu evidence, chia dev/test | `data/benchmark/dev.json` (15 + 2), `test.json` (5 + 2) |
+| Kết quả từng query, tool call, context, câu trả lời, citation, lỗi, thời gian, chi phí | `results/agent-*/<config>/traces.json`, `results/retrieval-*/` |
+| ≥2 cấu hình cải thiện, bảng benchmark, nhãn, phân tích lỗi, lý do chọn | `configs/`, `reviews.json`, `summary.json`, mục 2.9–2.10 và báo cáo |
+| Báo cáo đã đổi tên theo MSSV, họ tên | `report/individual/2A202603627_MaiDangKhuong.md` |
+| Người chấm xem được repo; không có `.env`, API key, token | Repo GitHub public; `.env` bị `.gitignore` bỏ qua; đã quét repo, không có chuỗi key |
+
+Phần nâng cao không thực hiện.
 
 ## 3. Dựa vào đâu để viết bộ đánh giá?
 
