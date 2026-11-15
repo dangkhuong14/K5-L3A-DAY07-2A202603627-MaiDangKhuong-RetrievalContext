@@ -1,0 +1,44 @@
+{
+  "frozen_on": "2026-11-15",
+  "decided_using": "dev only (17 câu); test chưa chạy agent/retrieval",
+  "criteria_in_order": [
+    "1. Grounded answer trung bình /2 trên 15 câu dev có đáp án (nhãn thủ công).",
+    "2. Context Evidence Rate trên context cuối gửi model.",
+    "3. Abstention đúng trên câu thiếu evidence phải giữ 2/2; ít từ chối nhầm hơn.",
+    "4. Khi chất lượng ngang nhau: ít token và thời gian median thấp hơn."
+  ],
+  "candidates": {
+    "baseline-dense": {
+      "grounded_mean": 0.6,
+      "context_evidence": "5/15",
+      "abstention": "2/2",
+      "false_abstention": "9/15",
+      "tokens_in_out": [
+        48842,
+        4735
+      ]
+    },
+    "improve1-dense-b2000": {
+      "grounded_mean": 1.0,
+      "context_evidence": "7/15",
+      "abstention": "2/2",
+      "false_abstention": "5/15",
+      "tokens_in_out": [
+        52376,
+        4279
+      ]
+    },
+    "improve2-hybrid-b2000": {
+      "grounded_mean": 1.6,
+      "context_evidence": "12/15",
+      "abstention": "2/2",
+      "false_abstention": "1/15",
+      "tokens_in_out": [
+        47789,
+        3814
+      ]
+    }
+  },
+  "selected": "configs/selected.json (= improve2-hybrid-b2000)",
+  "test_plan": "Chạy retrieval (dense, hybrid-char4) trên 5 câu test có đáp án và agent baseline-dense + selected trên 7 câu test; không chỉnh cấu hình sau khi xem test."
+}

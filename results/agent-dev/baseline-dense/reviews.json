@@ -1,0 +1,131 @@
+[
+  {
+    "query_id": "d7-dev-01",
+    "citation_support": [],
+    "reason": "Context cuối không có đoạn chứa evidence (trang gold không được đưa vào). Context gồm trang 500, 661, 306. Từ chối câu có đáp án: chấm 0.",
+    "context_grade": 0,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7-dev-02",
+    "citation_support": [],
+    "reason": "Context trang 19, 24; không có đoạn nêu Colbert (trang 20). Từ chối câu có đáp án: chấm 0.",
+    "context_grade": 0,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7-dev-03",
+    "citation_support": [],
+    "reason": "Context có S1 trang 23 nêu đủ chức vụ và lương bổng nhưng model vẫn từ chối (quá thận trọng). Từ chối câu có đáp án: chấm 0.",
+    "context_grade": 2,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7-dev-04",
+    "citation_support": [
+      true
+    ],
+    "reason": "S1 trang 36 (chuyện Tống Thái tổ) hỗ trợ ý kẻ thù cũ biết ơn, không trông chờ gì; thiếu lý do chính theo nguyên tắc 2 là 'cần chứng minh nhiều hơn' (trang 30).",
+    "context_grade": 1,
+    "answer_grade": 1
+  },
+  {
+    "query_id": "d7-dev-05",
+    "citation_support": [],
+    "reason": "Context cuối không có đoạn chứa evidence (trang gold không được đưa vào). Từ chối câu có đáp án: chấm 0.",
+    "context_grade": 0,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7-dev-06",
+    "citation_support": [
+      true
+    ],
+    "reason": "S2 trang 79 hỗ trợ 'nói càng nhiều càng bị thấy yếu đuối, kém thông minh'; thiếu ý 'tầm thường, mất khả năng kiểm soát' (trang 70) và thêm 'mất tín nhiệm, uy lực' không có trong đoạn.",
+    "context_grade": 1,
+    "answer_grade": 1
+  },
+  {
+    "query_id": "d7-dev-07",
+    "citation_support": [],
+    "reason": "Budget 800 ký tự chỉ giữ được S1 trang 70; đoạn nghịch đảo trang 79 bị bỏ do hết budget. Từ chối câu có đáp án: chấm 0.",
+    "context_grade": 0,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7-dev-08",
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng nguyên văn ý trang 80: dễ bị tổn thương và bị tấn công từ mọi phía.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-09",
+    "citation_support": [],
+    "reason": "Context cuối không có đoạn chứa evidence (trang gold không được đưa vào). Context trang 132, 409. Từ chối câu có đáp án: chấm 0.",
+    "context_grade": 0,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7-dev-10",
+    "citation_support": [
+      true
+    ],
+    "reason": "S2 trang 134 nêu oán giận và ác tâm dai dẳng hơn việc đối phương tạm đổi ý; trả lời đúng và đủ.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-11",
+    "citation_support": [
+      true
+    ],
+    "reason": "S1 trang 178 nêu cho thấy lợi ích khi hai bên liên kết; trả lời đúng.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-12",
+    "citation_support": [],
+    "reason": "Context cuối không có đoạn chứa evidence (trang gold không được đưa vào). Context trang 423, 67. Từ chối câu có đáp án: chấm 0.",
+    "context_grade": 0,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7-dev-13",
+    "citation_support": [
+      true
+    ],
+    "reason": "S1 trang 242 hỗ trợ ý mất kênh thông tin, không tự phòng vệ; thiếu ý trở thành mục tiêu lộ liễu (trang 233).",
+    "context_grade": 1,
+    "answer_grade": 1
+  },
+  {
+    "query_id": "d7-dev-14",
+    "citation_support": [],
+    "reason": "Context cuối không có đoạn chứa evidence (trang gold không được đưa vào). Context trang 371, 617. Từ chối câu có đáp án: chấm 0.",
+    "context_grade": 0,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7-dev-15",
+    "citation_support": [],
+    "reason": "Context có S1 trang 399 liệt kê hậu quả, chướng ngại, may rủi nhưng model cho là không đủ. Từ chối câu có đáp án: chấm 0.",
+    "context_grade": 2,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7-dev-u01",
+    "citation_support": [],
+    "reason": "Từ chối đúng; không đưa ra con số giờ nào.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "d7-dev-u02",
+    "citation_support": [],
+    "reason": "Từ chối đúng; không đưa ra số video nào.",
+    "abstention_correct": true
+  }
+]

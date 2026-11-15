@@ -1,0 +1,147 @@
+[
+  {
+    "query_id": "d7-dev-01",
+    "citation_support": [
+      true
+    ],
+    "reason": "S1 trang 18: bộc lộ tài năng khiến cấp trên e ngại và bất an; vế 'đe dọa vị trí' là diễn giải thêm.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-02",
+    "citation_support": [
+      true
+    ],
+    "reason": "S3 trang 20: vua chọn Jean-Baptiste Colbert kế nhiệm Fouquet.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-03",
+    "citation_support": [
+      true
+    ],
+    "reason": "S1 trang 23; ghi 'triết gia chính', 'nhà toán học chính' tương đương 'chính thức'.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-04",
+    "citation_support": [
+      true
+    ],
+    "reason": "S1 trang 30: cần chứng minh nhiều hơn; phần 'không có gì để mất' là diễn giải thêm.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-05",
+    "citation_support": [
+      false
+    ],
+    "reason": "S1 trang 139 nói người nói không biết lời lẽ tác động ra sao khi tranh luận; model đọc ngược chủ thể. Context không có đoạn trang 43.",
+    "context_grade": 0,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7-dev-06",
+    "citation_support": [],
+    "reason": "Context trang 661, 18, 497, 507; không có đoạn trang 70 hoặc trang 79. Từ chối câu có đáp án: chấm 0.",
+    "context_grade": 0,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7-dev-07",
+    "citation_support": [
+      true
+    ],
+    "reason": "S1 trang 79, đúng phần nghịch đảo.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-08",
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng ý trang 80.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-09",
+    "citation_support": [
+      true
+    ],
+    "reason": "S2 trang 123: khiến đối phương đến với ta thì hắn phải thay đổi kế hoạch ban đầu.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-10",
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng ý trang 134.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-11",
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng ý trang 178.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-12",
+    "citation_support": [
+      true
+    ],
+    "reason": "S1 trang 209: khi đã có vị trí trong tập thể, thỉnh thoảng ẩn mặt để mọi người bàn tán, ngưỡng mộ.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-13",
+    "citation_support": [
+      true
+    ],
+    "reason": "S1 trang 242 hỗ trợ ý mất kênh thông tin; thiếu ý mục tiêu lộ liễu (trang 233).",
+    "context_grade": 1,
+    "answer_grade": 1
+  },
+  {
+    "query_id": "d7-dev-14",
+    "citation_support": [
+      true
+    ],
+    "reason": "S1 trang 297 là evidence; câu trả lời chỉ nêu tên nguyên tắc 'Tập trung lực lượng', thiếu ý giữ sức mạnh tập trung vào chỗ mạnh nhất.",
+    "context_grade": 2,
+    "answer_grade": 1
+  },
+  {
+    "query_id": "d7-dev-15",
+    "citation_support": [
+      true
+    ],
+    "reason": "S1 trang 399: hậu quả, chướng ngại, may rủi có thể đánh đổ công sức.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-u01",
+    "citation_support": [],
+    "reason": "Từ chối đúng.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "d7-dev-u02",
+    "citation_support": [],
+    "reason": "Từ chối đúng; lần chạy đầu lỗi provider, lần chạy lại từ chối.",
+    "abstention_correct": true
+  }
+]

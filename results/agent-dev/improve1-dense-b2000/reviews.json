@@ -1,0 +1,140 @@
+[
+  {
+    "query_id": "d7-dev-01",
+    "citation_support": [],
+    "reason": "Context cuối không có đoạn chứa evidence (trang gold không được đưa vào). Sáu đoạn qua 3 lượt tìm, không có trang 18. Từ chối câu có đáp án: chấm 0.",
+    "context_grade": 0,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7-dev-02",
+    "citation_support": [],
+    "reason": "Context có S4 trang 20 nhưng là đoạn về cung điện Versailles, không nêu Colbert. Từ chối câu có đáp án: chấm 0.",
+    "context_grade": 0,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7-dev-03",
+    "citation_support": [
+      true
+    ],
+    "reason": "S1 trang 23: triết gia và nhà toán học chính thức của triều đình, kèm lương bổng đầy đủ.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-04",
+    "citation_support": [
+      true
+    ],
+    "reason": "S2 trang 30 nêu kẻ thù cũ trung kiên hơn vì cần chứng minh nhiều hơn; ý 'không có gì để mong đợi' là diễn giải thêm.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-05",
+    "citation_support": [
+      true
+    ],
+    "reason": "S2 trang 422: để lộ thông tin thì đối thủ dùng đó đập lại; hỗ trợ một phần, chưa có ý 'không thể phòng xa' (trang 43).",
+    "context_grade": 1,
+    "answer_grade": 1
+  },
+  {
+    "query_id": "d7-dev-06",
+    "citation_support": [
+      true
+    ],
+    "reason": "Giống baseline: S2 trang 79 hỗ trợ 'yếu đuối, kém thông minh'; thiếu ý tầm thường và mất kiểm soát; 'mất uy tín, sự tôn trọng' không có trong đoạn.",
+    "context_grade": 1,
+    "answer_grade": 1
+  },
+  {
+    "query_id": "d7-dev-07",
+    "citation_support": [
+      true
+    ],
+    "reason": "S2 trang 79 là đoạn nghịch đảo: im lặng làm người khác, nhất là thượng cấp, nghi ngờ và bất an.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-08",
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng ý trang 80.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-09",
+    "citation_support": [
+      false
+    ],
+    "reason": "S1 trang 132 nói về chủ động tấn công trước để đối phương suy sụp; không nêu việc đối phương phải đổi kế hoạch. Kết luận không được đoạn trích hỗ trợ.",
+    "context_grade": 0,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7-dev-10",
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng ý trang 134.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-11",
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng ý trang 178.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-dev-12",
+    "citation_support": [],
+    "reason": "Context cuối không có đoạn chứa evidence (trang gold không được đưa vào). Từ chối câu có đáp án: chấm 0.",
+    "context_grade": 0,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7-dev-13",
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "S1 trang 242 (mất kênh thông tin) và S2 trang 243 (càng cách ly càng khó phá vỡ) hỗ trợ câu trả lời; thiếu ý mục tiêu lộ liễu.",
+    "context_grade": 1,
+    "answer_grade": 1
+  },
+  {
+    "query_id": "d7-dev-14",
+    "citation_support": [],
+    "reason": "Context cuối không có đoạn chứa evidence (trang gold không được đưa vào). Từ chối câu có đáp án: chấm 0.",
+    "context_grade": 0,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7-dev-15",
+    "citation_support": [],
+    "reason": "Context có S1 trang 399 nhưng model cho là không liệt kê cụ thể. Từ chối câu có đáp án: chấm 0.",
+    "context_grade": 2,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7-dev-u01",
+    "citation_support": [],
+    "reason": "Từ chối đúng.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "d7-dev-u02",
+    "citation_support": [],
+    "reason": "Từ chối đúng.",
+    "abstention_correct": true
+  }
+]

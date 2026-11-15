@@ -139,7 +139,7 @@ Trace: `results/agent-<split>/<config>/traces.json`, kèm `config.json` (system 
 - [x] Xuất số đếm `n/N` và tỷ lệ; mẫu số 0 ghi không áp dụng.
 - [x] Chạy 21 unit test (15 có sẵn + 6 kiểm tra dense); tất cả đạt.
 
-Retrieval: [src/retrieval_eval.py](src/retrieval_eval.py). Agent: [src/agent_eval.py](src/agent_eval.py) → `auto_metrics.json`. Hiện có 36 unit test, gồm test lexical/hybrid/context và vòng tool-calling với model giả lập phản hồi để kiểm tra luồng điều khiển; kết quả chất lượng chỉ lấy từ lần chạy model thật. Chạy test bằng `python -X utf8 -m unittest discover -s tests` vì `test_baseline` đọc file theo encoding mặc định cp1252 của Windows.
+Retrieval: [src/retrieval_eval.py](src/retrieval_eval.py). Agent: [src/agent_eval.py](src/agent_eval.py) → `auto_metrics.json`. Hiện có 35 unit test, gồm test lexical/hybrid/context và vòng tool-calling với model giả lập phản hồi để kiểm tra luồng điều khiển; kết quả chất lượng chỉ lấy từ lần chạy model thật. Chạy test bằng `python -X utf8 -m unittest discover -s tests` vì `test_baseline` đọc file theo encoding mặc định cp1252 của Windows.
 
 Kết quả agent dev (17 câu, `gpt-oss-120b`):
 
@@ -151,36 +151,60 @@ Kết quả agent dev (17 câu, `gpt-oss-120b`):
 
 ### 2.8. Chấm thủ công
 
-- [ ] Chấm context 0/1/2 cho từng câu có đáp án cần đánh giá.
-- [ ] Chấm grounded answer 0/1/2 cho từng câu có đáp án.
-- [ ] Đọc từng citation để xác nhận nội dung hỗ trợ câu trả lời.
-- [ ] Xác nhận từ chối đúng cho từng câu thiếu evidence.
-- [ ] Ghi riêng câu có đáp án nhưng bị từ chối nhầm.
-- [ ] Ghi lý do cho từng nhãn trong `reviews.json`.
-- [ ] Dùng `agent_metrics.py` tổng hợp nhãn sau khi chấm.
+- [x] Chấm context 0/1/2 cho từng câu có đáp án cần đánh giá.
+- [x] Chấm grounded answer 0/1/2 cho từng câu có đáp án.
+- [x] Đọc từng citation để xác nhận nội dung hỗ trợ câu trả lời.
+- [x] Xác nhận từ chối đúng cho từng câu thiếu evidence.
+- [x] Ghi riêng câu có đáp án nhưng bị từ chối nhầm.
+- [x] Ghi lý do cho từng nhãn trong `reviews.json`.
+- [x] Dùng `agent_metrics.py` tổng hợp nhãn sau khi chấm.
+
+Nhãn: `results/agent-dev/<config>/reviews.json` (`context_grade`, `answer_grade`, `citation_support`, `abstention_correct`, `reason`); tổng hợp: `summary.json`. Citation được tính là hỗ trợ khi đoạn được trích nêu trực tiếp nội dung chính của câu trả lời; diễn giải thêm ngoài đoạn bị trừ ở `answer_grade`.
+
+| Cấu hình dev | Context 0/1/2 | Grounded 0/1/2 | TB /2 | Citation hợp lệ | Câu có citation | Từ chối đúng | Từ chối nhầm |
+|---|---|---|---:|---:|---:|---:|---:|
+| baseline-dense | 7/3/5 | 9/3/3 | 0,60 | 6/6 | 6/6 | 2/2 | 9/15 |
+| improve1-dense-b2000 | 5/3/7 | 6/3/6 | 1,00 | 10/11 | 10/10 | 2/2 | 5/15 |
+| improve2-hybrid-b2000 | 2/1/12 | 2/2/11 | 1,60 | 13/14 | 14/14 | 2/2 | 1/15 |
+
+Từ chối nhầm: baseline `01, 02, 03, 05, 07, 09, 12, 14, 15`; cải thiện 1 `01, 02, 12, 14, 15`; cải thiện 2 `06`. Ở `03` (baseline) và `15` (baseline, cải thiện 1), context có đủ evidence nhưng model vẫn từ chối.
 
 ### 2.9. Thử nghiệm trên dev
 
-- [ ] Chạy retrieval của ít nhất 3 phương pháp trên cùng bộ dev.
-- [ ] Chạy agent thật trên 17 câu dev cho các cấu hình cần so sánh.
-- [ ] Ghi giả thuyết cho cấu hình cải thiện thứ nhất.
-- [ ] Chạy và lưu kết quả cấu hình cải thiện thứ nhất.
-- [ ] Ghi giả thuyết cho cấu hình cải thiện thứ hai.
-- [ ] Chạy và lưu kết quả cấu hình cải thiện thứ hai.
-- [ ] Phân tích lỗi dev thứ nhất và đối chiếu trace.
-- [ ] Phân tích lỗi dev thứ hai và đối chiếu trace.
-- [ ] Lập bảng so sánh chất lượng, thời gian và chi phí trước/sau.
+- [x] Chạy retrieval của ít nhất 3 phương pháp trên cùng bộ dev.
+- [x] Chạy agent thật trên 17 câu dev cho các cấu hình cần so sánh.
+- [x] Ghi giả thuyết cho cấu hình cải thiện thứ nhất.
+- [x] Chạy và lưu kết quả cấu hình cải thiện thứ nhất.
+- [x] Ghi giả thuyết cho cấu hình cải thiện thứ hai.
+- [x] Chạy và lưu kết quả cấu hình cải thiện thứ hai.
+- [x] Phân tích lỗi dev thứ nhất và đối chiếu trace.
+- [x] Phân tích lỗi dev thứ hai và đối chiếu trace.
+- [x] Lập bảng so sánh chất lượng, thời gian và chi phí trước/sau.
 
-Một phương pháp mới có thể đồng thời là cấu hình cải thiện nếu có giả thuyết và kết quả riêng.
+**Lỗi 1, budget cắt mất evidence:** baseline dense có Evidence Hit@3 `11/15` nhưng Context Evidence chỉ `5/15`. Ở `d7-dev-07`, trace cho thấy cả 3 lượt tìm đều có chunk bị bỏ (`dropped_ids`, tổng 6 chunk) vì 800 ký tự chỉ chứa khoảng một chunk 500 ký tự; context chỉ còn trang 70, model từ chối. **Giả thuyết cải thiện 1:** tăng budget lên 2000 ký tự (đủ top-3) sẽ giữ evidence ở hạng 2–3. **Kết quả:** context `5/15 → 7/15`, grounded TB `0,60 → 1,00`, từ chối nhầm `9 → 5`; `d7-dev-07` trả lời đúng bằng trang 79.
+
+**Lỗi 2, query do agent viết lại làm dense mất evidence:** với cải thiện 1, query gốc có gold trong top-3 ở `d7-dev-01, 12, 14` nhưng agent rút câu hỏi thành từ khóa (ví dụ `ẩn mặt tạo sự quý hiếm tác động tập thể`), dense xếp các trang khác lên trên; ở `d7-dev-14` ba lượt tìm đều không ra trang 297. Chunk gốc có lỗi tách chữ (`đ{o gi ếng`) nên khớp từ chính xác cũng khó. **Giả thuyết cải thiện 2:** hybrid RRF dense + BM25 n-gram 4 ký tự (bỏ khoảng trắng) bù được các truy vấn từ khóa và lỗi tách chữ. **Kết quả:** Hit@1 `6/15 → 11/15`, context `7/15 → 12/15`, grounded TB `1,00 → 1,60`, từ chối nhầm `5 → 1`; `01, 02, 09, 12, 14` có evidence trong context. Lỗi còn lại: `d7-dev-05` trích trang 139 và đọc ngược chủ thể; `d7-dev-06` không tìm được trang 70.
+
+| Cấu hình dev | Context | Grounded TB | Lượt tìm TB | Token in/out | Median s/câu* | Chi phí ước tính (USD) |
+|---|---:|---:|---:|---:|---:|---:|
+| baseline-dense | 5/15 | 0,60 | 1,82 | 48.842 / 4.735 | 4,2 | 0,0086 |
+| improve1-dense-b2000 | 7/15 | 1,00 | 1,59 | 52.376 / 4.279 | 4,1 | 0,0087 |
+| improve2-hybrid-b2000 | 12/15 | 1,60 | 1,41 | 47.789 / 3.814 | 3,9 | 0,0079 |
+
+\* Không tính thời gian chờ rate limit của Groq free tier (8K token/phút); tính cả chờ thì median là 10,5 / 13,2 / 13,8 s. Chi phí ước tính theo giá niêm yết, phí thực tế 0 USD (free tier).
+
+Một phương pháp mới có thể đồng thời là cấu hình cải thiện nếu có giả thuyết và kết quả riêng. Cải thiện 2 đồng thời là phương pháp 3 (hybrid).
 
 ### 2.10. Chốt cấu hình trước test
 
-- [ ] Công bố tiêu chí chọn cấu hình trước khi chạy test.
-- [ ] Chọn cấu hình theo kết quả dev.
-- [ ] Lưu model, retrieval, filter và top-k đã chọn.
-- [ ] Lưu context budget và cách chọn context đã chọn.
-- [ ] Lưu giới hạn lượt gọi và điều kiện dừng đã chọn.
-- [ ] Ghi lý do chọn cấu hình cùng các đánh đổi.
+- [x] Công bố tiêu chí chọn cấu hình trước khi chạy test.
+- [x] Chọn cấu hình theo kết quả dev.
+- [x] Lưu model, retrieval, filter và top-k đã chọn.
+- [x] Lưu context budget và cách chọn context đã chọn.
+- [x] Lưu giới hạn lượt gọi và điều kiện dừng đã chọn.
+- [x] Ghi lý do chọn cấu hình cùng các đánh đổi.
+
+Tiêu chí theo thứ tự (lưu trong [configs/selection.json](configs/selection.json), commit trước khi chạy test): (1) grounded answer TB trên dev; (2) Context Evidence Rate; (3) giữ abstention 2/2 và ít từ chối nhầm; (4) nếu ngang nhau thì chọn cấu hình ít token/thời gian hơn. Chọn [configs/selected.json](configs/selected.json): `gpt-oss-120b`, hybrid RRF (dense + BM25 char4, depth 20, `k=60`), filter của câu hỏi, top-3 mỗi lượt, budget 2000 ký tự kiểu `drop`, tối đa 3 lượt tìm, buộc trả JSON khi hết lượt. Đánh đổi: phải giữ thêm chỉ mục BM25 trong RAM (khoảng 1–2 s dựng) và mỗi lượt tìm chậm hơn dense khoảng 20–40 ms; mỗi lượt gọi model dài hơn do budget 2000, nhưng tổng token dev vẫn thấp nhất vì cần ít lượt tìm hơn.
 
 ### 2.11. Đánh giá test
 
