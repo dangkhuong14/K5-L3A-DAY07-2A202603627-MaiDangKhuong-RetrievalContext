@@ -204,19 +204,26 @@ Một phương pháp mới có thể đồng thời là cấu hình cải thiệ
 - [x] Lưu giới hạn lượt gọi và điều kiện dừng đã chọn.
 - [x] Ghi lý do chọn cấu hình cùng các đánh đổi.
 
-Tiêu chí theo thứ tự (lưu trong [configs/selection.json](configs/selection.json), commit trước khi chạy test): (1) grounded answer TB trên dev; (2) Context Evidence Rate; (3) giữ abstention 2/2 và ít từ chối nhầm; (4) nếu ngang nhau thì chọn cấu hình ít token/thời gian hơn. Chọn [configs/selected.json](configs/selected.json): `gpt-oss-120b`, hybrid RRF (dense + BM25 char4, depth 20, `k=60`), filter của câu hỏi, top-3 mỗi lượt, budget 2000 ký tự kiểu `drop`, tối đa 3 lượt tìm, buộc trả JSON khi hết lượt. Đánh đổi: phải giữ thêm chỉ mục BM25 trong RAM (khoảng 1–2 s dựng) và mỗi lượt tìm chậm hơn dense khoảng 20–40 ms; mỗi lượt gọi model dài hơn do budget 2000, nhưng tổng token dev vẫn thấp nhất vì cần ít lượt tìm hơn.
+Tiêu chí theo thứ tự (lưu trong [configs/selection.json](configs/selection.json), commit trước khi chạy test): (1) grounded answer TB trên dev; (2) Context Evidence Rate; (3) giữ abstention 2/2 và ít từ chối nhầm; (4) nếu ngang nhau thì chọn cấu hình ít token/thời gian hơn. Chọn [configs/selected.json](configs/selected.json): `gpt-oss-120b`, hybrid RRF (dense + BM25 char4, depth 20, `k=60`), filter của câu hỏi, top-3 mỗi lượt, budget 2000 ký tự kiểu `drop`, tối đa 3 lượt tìm, buộc trả JSON khi hết lượt. Đánh đổi: phải giữ thêm chỉ mục BM25 trong RAM (dựng khoảng 0,4 s) và mỗi lượt tìm chậm hơn dense khoảng 20–40 ms; mỗi lượt gọi model dài hơn do budget 2000, nhưng tổng token dev vẫn thấp nhất vì cần ít lượt tìm hơn.
 
 ### 2.11. Đánh giá test
 
-- [ ] Chạy retrieval baseline trên 5 câu test có đáp án.
-- [ ] Chạy retrieval cấu hình chọn trên cùng 5 câu đó.
-- [ ] Chạy agent baseline trên toàn bộ 7 câu test.
-- [ ] Chạy agent cấu hình chọn trên cùng 7 câu test.
-- [ ] Chấm thủ công đủ 5 câu có đáp án cho cả hai cấu hình.
-- [ ] Chấm thủ công đủ 2 câu thiếu evidence cho cả hai cấu hình.
-- [ ] Tổng hợp metrics test; giữ riêng output của từng cấu hình.
+- [x] Chạy retrieval baseline trên 5 câu test có đáp án.
+- [x] Chạy retrieval cấu hình chọn trên cùng 5 câu đó.
+- [x] Chạy agent baseline trên toàn bộ 7 câu test.
+- [x] Chạy agent cấu hình chọn trên cùng 7 câu test.
+- [x] Chấm thủ công đủ 5 câu có đáp án cho cả hai cấu hình.
+- [x] Chấm thủ công đủ 2 câu thiếu evidence cho cả hai cấu hình.
+- [x] Tổng hợp metrics test; giữ riêng output của từng cấu hình.
 
-Nếu đã dùng test để chỉnh hệ thống, cần tạo test mới trước khi báo kết quả độc lập.
+Output: `results/retrieval-test/<config>/`, `results/agent-test/<config>/` (`traces.json`, `auto_metrics.json`, `reviews.json`, `summary.json`). Không đổi code hay cấu hình sau khi chạy test.
+
+| Test | Hit@1 | Evidence Hit@3 | Context Evidence | Grounded 0/1/2, TB | Citation hợp lệ | Từ chối đúng | Từ chối nhầm | Lỗi provider |
+|---|---:|---:|---:|---|---:|---:|---:|---:|
+| baseline-dense (800 ký tự) | 4/5 | 5/5 | 4/5 | 0/0/5, 2,00 | 5/5 | 2/2 | 0/5 | 0 |
+| selected-hybrid-b2000 | 4/5 | 5/5 | retrieval 5/5; agent 4/4 | 0/0/4, 2,00 | 4/4 | 2/2 | 0/4 | 1 |
+
+`d7-test-02` của cấu hình chọn lỗi provider hai lần (Groq `json_validate_failed`, sinh rỗng ở lượt buộc trả JSON) dù đã tìm đúng trang 114; giữ `status: "error"`, lỗi lần đầu ở `previous_errors`, không chấm nhãn và không tính vào mẫu số chất lượng. Context thủ công: baseline 2/2/2/2/1 (`test-05` dùng đoạn thay thế trang 173), cấu hình chọn 2/2/2/2. Test chỉ 5 câu có đáp án và đều dễ hơn dev, nên hai cấu hình ngang nhau về câu trả lời; khác biệt chính là context (hybrid có đúng trang 167 ở `test-05`). Token in/out: baseline 18.718 / 1.668, cấu hình chọn 15.600 / 1.496 (6 câu thành công); chi phí ước tính 0,0031 và 0,0026 USD, phí thực tế 0.
 
 ### 2.12. Báo cáo và nộp bài
 

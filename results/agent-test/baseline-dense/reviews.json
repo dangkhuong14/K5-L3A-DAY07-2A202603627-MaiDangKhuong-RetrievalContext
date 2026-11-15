@@ -1,0 +1,59 @@
+[
+  {
+    "query_id": "d7-test-01",
+    "citation_support": [
+      true
+    ],
+    "reason": "S2 trang 112: trước vua chúa hoặc các vị tương đương nên âm thầm rút lui vào bóng tối; trả lời đủ cả hai vế.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-test-02",
+    "citation_support": [
+      true
+    ],
+    "reason": "S2 trang 114: Tesla làm việc 18 tiếng mỗi ngày để cải tiến dynamo của Edison.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-test-03",
+    "citation_support": [
+      true
+    ],
+    "reason": "S1 trang 154: không chấp nhận nghịch đảo nào, đúng cho mọi lúc mọi nơi.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-test-04",
+    "citation_support": [
+      true
+    ],
+    "reason": "S1 trang 166 nêu đủ hai vế; câu trích trong ngoặc bị chép sai thành 'thượng cảm' và thêm 'hạnh phúc' ngoài đoạn, không đổi nghĩa chính.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-test-05",
+    "citation_support": [
+      true
+    ],
+    "reason": "Context không có đoạn gold trang 167; S1 trang 173 nêu hành động nhân nghĩa làm kẻ đa nghi mất cảnh giác, đủ để trả lời đúng nhưng không phải nguồn gold.",
+    "context_grade": 1,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-test-u01",
+    "citation_support": [],
+    "reason": "Từ chối đúng; không đưa ra số giây.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "d7-test-u02",
+    "citation_support": [],
+    "reason": "Từ chối đúng; không đưa ra tỷ lệ phần trăm.",
+    "abstention_correct": true
+  }
+]

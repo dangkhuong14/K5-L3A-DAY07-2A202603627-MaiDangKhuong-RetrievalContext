@@ -1,0 +1,50 @@
+[
+  {
+    "query_id": "d7-test-01",
+    "citation_support": [
+      true
+    ],
+    "reason": "S2 trang 112; trả lời 'Không' và nêu đúng việc nên rút lui vào bóng tối.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-test-03",
+    "citation_support": [
+      true
+    ],
+    "reason": "S3 trang 154: không chấp nhận nghịch đảo, đúng mọi lúc mọi nơi.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-test-04",
+    "citation_support": [
+      true
+    ],
+    "reason": "S1 trang 166 nêu đủ hai vế; trích dẫn có lỗi chính tả 'thượng bị', phần 'duy trì vị thế và lợi ích' là diễn giải thêm.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-test-05",
+    "citation_support": [
+      true
+    ],
+    "reason": "S1 trang 167 nguyên văn: hạ thấp sự cảnh giác của những người đa nghi nhất.",
+    "context_grade": 2,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7-test-u01",
+    "citation_support": [],
+    "reason": "Từ chối đúng.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "d7-test-u02",
+    "citation_support": [],
+    "reason": "Từ chối đúng.",
+    "abstention_correct": true
+  }
+]

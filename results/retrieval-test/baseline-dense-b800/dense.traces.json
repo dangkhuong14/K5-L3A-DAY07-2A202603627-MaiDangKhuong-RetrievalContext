@@ -1,0 +1,330 @@
+[
+  {
+    "query_id": "d7-test-01",
+    "question": "Trong Nguyên tắc 6, khi đứng trước vua chúa hoặc người có vị thế tương đương, có nên cố trở thành tâm điểm chú ý không? Theo sách nên làm gì?",
+    "filter_applied": {
+      "section": "nguyen_tac_06"
+    },
+    "top3": [
+      {
+        "id": "ea1da4cca1773baea99d528343ea4057d59656ef01caf4c06b976c3a84645bd2",
+        "rank": 1,
+        "score": 0.7562068540680087,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 92,
+        "section": "nguyen_tac_06",
+        "hit": false
+      },
+      {
+        "id": "186a5da5f67648a87827624d3298c7431a4b85d21699f817b685652d706f093b",
+        "rank": 2,
+        "score": 0.7205260777316823,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 97,
+        "section": "nguyen_tac_06",
+        "hit": false
+      },
+      {
+        "id": "f9543a2a8eb233a8e97aacad0c49e1109e7bb3f6a4ef3cd09c0e8c2f9cbd62f3",
+        "rank": 3,
+        "score": 0.7199098205673959,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 112,
+        "section": "nguyen_tac_06",
+        "hit": true
+      }
+    ],
+    "candidates": [
+      {
+        "id": "ea1da4cca1773baea99d528343ea4057d59656ef01caf4c06b976c3a84645bd2",
+        "rank": 1,
+        "page": 92,
+        "hit": false
+      },
+      {
+        "id": "186a5da5f67648a87827624d3298c7431a4b85d21699f817b685652d706f093b",
+        "rank": 2,
+        "page": 97,
+        "hit": false
+      },
+      {
+        "id": "f9543a2a8eb233a8e97aacad0c49e1109e7bb3f6a4ef3cd09c0e8c2f9cbd62f3",
+        "rank": 3,
+        "page": 112,
+        "hit": true
+      }
+    ],
+    "context": "[ea1da4cca1773baea99d528343ea4057d59656ef01caf4c06b976c3a84645bd2 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 92 | nguyen_tac_06]\nNGUYÊN TẮC\n\n6\n\nTHU HÚT CHÚ Ý BẰNG MỌI CÁCH\n\nMọi th ứ đều đư ợc đ|nh gi| qua v ẻ bề ngoài, cái gì không được trông thấy thì xem như không có gi| tr ị. Vì vậy đừng bao giờ để mình bị chìm ngập giữa đ|m đông hoặc chôn vùi trong quên lãng. Hãy n ổi tr ội. Hãy tìm mọi c|ch đ ể sừng s ững ra đ ấy. Hãy bi ến mình thành thanh nam châm thu hút sự chú ý, hãy tạo một bề ngoài to lớn hơn, màu sắc hơn, bí ẩn hơn đ|m đông vô hồn và nhút nhát.",
+    "context_ids": [
+      "ea1da4cca1773baea99d528343ea4057d59656ef01caf4c06b976c3a84645bd2"
+    ],
+    "context_chars": 568,
+    "hit1": false,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": false,
+    "elapsed_ms": 179.37390000042797
+  },
+  {
+    "query_id": "d7-test-02",
+    "question": "Theo câu chuyện Tesla làm việc cho Edison tại New York, mỗi ngày Tesla dành bao nhiêu giờ để cải tiến những bộ dynamo ban đầu của Edison?",
+    "filter_applied": null,
+    "top3": [
+      {
+        "id": "d291725d59539f3d78fe972c02c244ba6aae572f576aff490e52318092082829",
+        "rank": 1,
+        "score": 0.8767948077198764,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 114,
+        "section": "nguyen_tac_07",
+        "hit": true
+      },
+      {
+        "id": "5d1f7f98d2410abb954bbfdd9ea5559ba1b58cac612148f5cc2ff93ceb508fc5",
+        "rank": 2,
+        "score": 0.8522947430610657,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 114,
+        "section": "nguyen_tac_07",
+        "hit": false
+      },
+      {
+        "id": "f9af81885cd07824b3f917e30e6093e54059041920d4fb916d901cd750629964",
+        "rank": 3,
+        "score": 0.7591392993927002,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 90,
+        "section": "nguyen_tac_05",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "d291725d59539f3d78fe972c02c244ba6aae572f576aff490e52318092082829",
+        "rank": 1,
+        "page": 114,
+        "hit": true
+      },
+      {
+        "id": "5d1f7f98d2410abb954bbfdd9ea5559ba1b58cac612148f5cc2ff93ceb508fc5",
+        "rank": 2,
+        "page": 114,
+        "hit": false
+      },
+      {
+        "id": "f9af81885cd07824b3f917e30e6093e54059041920d4fb916d901cd750629964",
+        "rank": 3,
+        "page": 90,
+        "hit": false
+      }
+    ],
+    "context": "[d291725d59539f3d78fe972c02c244ba6aae572f576aff490e52318092082829 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 114 | nguyen_tac_07]\nGặp Edison t ại New York, Tesla đư ợc nhà khoa h ọc này tuyển dụng ngay l ập tức. Mỗi ngày Tesla làm vi ệc 18 ti ếng để tìm cách cái tiến những bộ dynamo ban đầu của Edison. Cuối cùng ông đề nghị tự mình thiết k ế lại toàn b ộ.",
+    "context_ids": [
+      "d291725d59539f3d78fe972c02c244ba6aae572f576aff490e52318092082829"
+    ],
+    "context_chars": 364,
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 176.60869999963325
+  },
+  {
+    "query_id": "d7-test-03",
+    "question": "Trong phần nghịch đảo của Nguyên tắc 10, tác giả có chấp nhận ngoại lệ cho nguyên tắc tránh kẻ xấu số không, và phạm vi áp dụng được mô tả ra sao?",
+    "filter_applied": {
+      "section": "nguyen_tac_10"
+    },
+    "top3": [
+      {
+        "id": "dd1e5da7d797aa2feb6f1d5474aefcd3abb645b902fc2d882ae1e86591103cf4",
+        "rank": 1,
+        "score": 0.7462743227154877,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 154,
+        "section": "nguyen_tac_10",
+        "hit": true
+      },
+      {
+        "id": "473d9f928bc9a7eb74942d8c0bf848fc34b56311579ecb67f82f24d67988b8a4",
+        "rank": 2,
+        "score": 0.7190035749075679,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 145,
+        "section": "nguyen_tac_10",
+        "hit": false
+      },
+      {
+        "id": "75848c4a492305541b7a81896ed4996ce3847b257fb6ffd7dff3ed16e0203c5b",
+        "rank": 3,
+        "score": 0.6766960235471802,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 151,
+        "section": "nguyen_tac_10",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "dd1e5da7d797aa2feb6f1d5474aefcd3abb645b902fc2d882ae1e86591103cf4",
+        "rank": 1,
+        "page": 154,
+        "hit": true
+      },
+      {
+        "id": "473d9f928bc9a7eb74942d8c0bf848fc34b56311579ecb67f82f24d67988b8a4",
+        "rank": 2,
+        "page": 145,
+        "hit": false
+      },
+      {
+        "id": "75848c4a492305541b7a81896ed4996ce3847b257fb6ffd7dff3ed16e0203c5b",
+        "rank": 3,
+        "page": 151,
+        "hit": false
+      }
+    ],
+    "context": "[dd1e5da7d797aa2feb6f1d5474aefcd3abb645b902fc2d882ae1e86591103cf4 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 154 | nguyen_tac_10]\nNguyên tắc này không chấp nhận nghịch đảo nào cả. Nó đúng cho mọi lúc m ọi nơi. B ạn sẽ không được gì khi liên đ ới với những người truyền cho b ạn n ỗi kh ổ của họ. Ch ỉ nên giao du v ới ngư ời vận đ ỏ để cùng hưởng may m ắn và s ức mạnh. Ai ph ớt lờ nguyên tắc này, khi tai họa xảy đến thì ráng chịu.",
+    "context_ids": [
+      "dd1e5da7d797aa2feb6f1d5474aefcd3abb645b902fc2d882ae1e86591103cf4"
+    ],
+    "context_chars": 439,
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 169.1939000002094
+  },
+  {
+    "query_id": "d7-test-04",
+    "question": "Trong phần kết của Nguyên tắc 11, đặt mình vào vị trí phụ thuộc lẫn nhau giúp tránh sức ép nào, và vì sao người ngồi trên vẫn lệ thuộc mình?",
+    "filter_applied": {
+      "section": "nguyen_tac_11"
+    },
+    "top3": [
+      {
+        "id": "69499b3ce5462b649819d5dc0520a2fee43bcd6b9e0ad7d115b01e8f04a14822",
+        "rank": 1,
+        "score": 0.78967717762914,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 166,
+        "section": "nguyen_tac_11",
+        "hit": true
+      },
+      {
+        "id": "cf57a4a925fd58862b3a360db5a911109d3c52064ef0aca622b286583910992f",
+        "rank": 2,
+        "score": 0.7831039687271211,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 155,
+        "section": "nguyen_tac_11",
+        "hit": false
+      },
+      {
+        "id": "a3c236f8ac35b4ba19a66f6d69c5a707135d3a7e8eba16d3592c22c7a313827c",
+        "rank": 3,
+        "score": 0.7417303015864307,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 164,
+        "section": "nguyen_tac_11",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "69499b3ce5462b649819d5dc0520a2fee43bcd6b9e0ad7d115b01e8f04a14822",
+        "rank": 1,
+        "page": 166,
+        "hit": true
+      },
+      {
+        "id": "cf57a4a925fd58862b3a360db5a911109d3c52064ef0aca622b286583910992f",
+        "rank": 2,
+        "page": 155,
+        "hit": false
+      },
+      {
+        "id": "a3c236f8ac35b4ba19a66f6d69c5a707135d3a7e8eba16d3592c22c7a313827c",
+        "rank": 3,
+        "page": 164,
+        "hit": false
+      }
+    ],
+    "context": "[69499b3ce5462b649819d5dc0520a2fee43bcd6b9e0ad7d115b01e8f04a14822 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 166 | nguyen_tac_11]\nXu hướng toàn quyền kiểm soát nhiều khi g}y ra đổ nát chứ không mấy lợi ích. S ự tương thuộc vẫn là quy lu ật chung, còn đ ộc lập ch ỉ là ngo ại l ệ hiếm hoi và sinh t ử. Vì v ậy t ốt hơn ta nên đ ặt mình vào vị trí phụ thuộc lẫn nhau. Như th ế ta sẽ không bị sức ép mà kẻ ngồi trên đ ỉnh cao thư ờng bị, và th ực chất người ngồi trên bạn sẽ lệ thuộc bạn, bởi vì hắn cần đến bạn.",
+    "context_ids": [
+      "69499b3ce5462b649819d5dc0520a2fee43bcd6b9e0ad7d115b01e8f04a14822"
+    ],
+    "context_chars": 516,
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 166.8482999994012
+  },
+  {
+    "query_id": "d7-test-05",
+    "question": "Theo Nguyên tắc 12, những động tác tốt bụng và bao dung tác động thế nào đến sự cảnh giác của người đa nghi?",
+    "filter_applied": {
+      "section": "nguyen_tac_12"
+    },
+    "top3": [
+      {
+        "id": "7f1344507e6d6359a1b606494d2da411c297112376d8fa9cf66a14a53c98627e",
+        "rank": 1,
+        "score": 0.7480423227536016,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 167,
+        "section": "nguyen_tac_12",
+        "hit": true
+      },
+      {
+        "id": "27e052a4fb3a59829e2682ece15398aa6659e2ab815f509e169c64b35c722f9d",
+        "rank": 2,
+        "score": 0.7298130932617484,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 173,
+        "section": "nguyen_tac_12",
+        "hit": false
+      },
+      {
+        "id": "de55723025c9da2a7b10cff9e7c783399e7083acad01aee57daf443d3f8881b7",
+        "rank": 3,
+        "score": 0.7156096527343782,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 175,
+        "section": "nguyen_tac_12",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "7f1344507e6d6359a1b606494d2da411c297112376d8fa9cf66a14a53c98627e",
+        "rank": 1,
+        "page": 167,
+        "hit": true
+      },
+      {
+        "id": "27e052a4fb3a59829e2682ece15398aa6659e2ab815f509e169c64b35c722f9d",
+        "rank": 2,
+        "page": 173,
+        "hit": false
+      },
+      {
+        "id": "de55723025c9da2a7b10cff9e7c783399e7083acad01aee57daf443d3f8881b7",
+        "rank": 3,
+        "page": 175,
+        "hit": false
+      }
+    ],
+    "context": "[7f1344507e6d6359a1b606494d2da411c297112376d8fa9cf66a14a53c98627e | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 167 | nguyen_tac_12]\nNGUYÊN TẮC\n\n12\n\nSỬ DỤNG NH]N NGHĨA CÓ LỰA CHỌN\n\nMột nước cờ có vẻ trung thực v{ lương thiện sẽ che đậy h{ng t| h{nh động bất lương. Những động tác tốt bụng và bao dung s ẽ hạ thấp sự cảnh giác c ủa những người đa nghi nh ất. M ột khi s ự trung th ực có l ựa ch ọn c ủa bạn đ~ t ạo ra một chỗ hở trên giáp bị của đối phương, bạn sẽ tha hồ đ|nh lừa và thao túng h ọ. Một món quà đúng lúc – như con ng ựa thành Troy – sẽ đ|p ứng cho cùng một mục đích ấy.",
+    "context_ids": [
+      "7f1344507e6d6359a1b606494d2da411c297112376d8fa9cf66a14a53c98627e"
+    ],
+    "context_chars": 588,
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 143.2758000000831
+  }
+]

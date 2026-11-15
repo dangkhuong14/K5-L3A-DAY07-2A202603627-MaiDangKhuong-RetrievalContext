@@ -1,0 +1,45 @@
+[
+  {
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "packing": "drop",
+    "filter": "question filter",
+    "cases": 5,
+    "hit1": {
+      "n": 4,
+      "N": 5,
+      "rate": 0.8,
+      "text": "4/5 (80.0%)"
+    },
+    "evidence_hit3": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0,
+      "text": "5/5 (100.0%)"
+    },
+    "hit_at_k": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0,
+      "text": "5/5 (100.0%)"
+    },
+    "context_evidence": {
+      "n": 4,
+      "N": 5,
+      "rate": 0.8,
+      "text": "4/5 (80.0%)"
+    },
+    "avg_context_chars": 495,
+    "median_ms": 169.1939000002094,
+    "total_ms": 835.3005999997549,
+    "setup_s": 11.737597000000278,
+    "service_cost_usd": 0,
+    "cost_note": "Chạy local; không gọi API trả phí.",
+    "split": "test",
+    "db_snapshot": {
+      "count": 2864,
+      "digest": "efb5ed762003e52c8804fad05156f9fe"
+    }
+  }
+]

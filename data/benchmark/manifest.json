@@ -61,8 +61,8 @@
     "authorship": "AI-assisted benchmark preparation; reference labels checked against corpus. Agent answer/citation/context reviews must be completed after real runs."
   },
   "evaluation": {
-    "status": "dev_tfidf_only; real_agent_and_test_not_run",
-    "configuration_selected": false,
+    "status": "dev_and_test_completed; configuration frozen on dev before test",
+    "configuration_selected": true,
     "reference": "BENCHMARK.md",
     "input_allowlist": [
       "question",
@@ -86,6 +86,20 @@
       "hit3": "10/15",
       "context_evidence": "9/15",
       "budget_chars": 800
+    },
+    "selected_config": "configs/selected.json",
+    "selection_criteria": "configs/selection.json",
+    "agent_model": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "reasoning_effort": "low"
+    },
+    "results": {
+      "retrieval_dev": "results/retrieval-dev/",
+      "agent_dev": "results/agent-dev/",
+      "retrieval_test": "results/retrieval-test/",
+      "agent_test": "results/agent-test/"
     }
   },
   "validation": {
