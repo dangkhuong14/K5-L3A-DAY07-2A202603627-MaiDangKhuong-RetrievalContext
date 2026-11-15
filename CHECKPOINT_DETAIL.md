@@ -90,48 +90,64 @@ Bỏ filter (`k3-b2000-nofilter`) làm giảm Hit@3 của dense, BM25 char4 và 
 
 ### 2.4. Agent dùng model thật
 
-- [ ] Kết nối controller với model thật hỗ trợ gọi tool.
-- [ ] Đăng ký retrieval tool cho agent.
-- [ ] Cho phép cấu hình phương pháp retrieval được dùng trong từng lần chạy.
-- [ ] Chỉ đưa `question` và `filter` vào agent; giữ nhãn chuẩn ở evaluator.
-- [ ] Cấu hình giới hạn lượt gọi và điều kiện dừng.
-- [ ] Yêu cầu câu trả lời có citation khi có bằng chứng.
-- [ ] Yêu cầu từ chối khi chưa đủ bằng chứng, không suy diễn con số.
+- [x] Kết nối controller với model thật hỗ trợ gọi tool.
+- [x] Đăng ký retrieval tool cho agent.
+- [x] Cho phép cấu hình phương pháp retrieval được dùng trong từng lần chạy.
+- [x] Chỉ đưa `question` và `filter` vào agent; giữ nhãn chuẩn ở evaluator.
+- [x] Cấu hình giới hạn lượt gọi và điều kiện dừng.
+- [x] Yêu cầu câu trả lời có citation khi có bằng chứng.
+- [x] Yêu cầu từ chối khi chưa đủ bằng chứng, không suy diễn con số.
+
+Code: [src/agent.py](src/agent.py), client [src/llm.py](src/llm.py) (OpenAI-compatible, chỉ dùng thư viện chuẩn). Model `openai/gpt-oss-120b` qua Groq, `temperature=0`, `reasoning_effort=low`, `max_tokens=1024`; OpenAI, Gemini, OpenRouter đã thử nhưng hết credit (HTTP 429/402). Tool `search_book(query)` và `final_answer(status, answer, citations)`; phương pháp retrieval, top-k, budget, số lượt tìm lấy từ [configs/](configs/). Filter của câu hỏi do runner áp dụng cho mọi lượt tìm, model không tự đặt filter. Dừng khi: gọi `final_answer`/trả JSON cuối; hết `max_searches=3` thì bỏ tools và buộc trả JSON; nội dung cuối rỗng thì hỏi lại một lần ở chế độ JSON. Citation không thuộc context hoặc thiếu citation chuyển thành `abstain`.
 
 ### 2.5. Đóng gói context
 
-- [ ] Loại chunk trùng giữa các lượt search.
-- [ ] Chọn context budget và ghi rõ đơn vị đo.
-- [ ] Giữ ID, nguồn và trang trong context gửi model.
-- [ ] Lưu context cuối sau khi áp dụng budget/cắt đoạn.
-- [ ] Kiểm tra citation ID thuộc context thực sự gửi model.
+- [x] Loại chunk trùng giữa các lượt search.
+- [x] Chọn context budget và ghi rõ đơn vị đo.
+- [x] Giữ ID, nguồn và trang trong context gửi model.
+- [x] Lưu context cuối sau khi áp dụng budget/cắt đoạn.
+- [x] Kiểm tra citation ID thuộc context thực sự gửi model.
+
+`ContextPack` trong [src/agent.py](src/agent.py): budget tính bằng ký tự Unicode của toàn bộ block gửi model (gồm header); thử 800 và 2000 ký tự, chunk không vừa bị bỏ (`drop`). Header mỗi block là `[S<n> | trang <page> | <section>]`; mã `S<n>` ánh xạ 1-1 sang chunk ID trong `context_blocks` của trace, nguồn là PDF duy nhất nêu trong system prompt. Chunk đã gửi chỉ được nhắc lại bằng mã, không gửi lại nội dung.
 
 ### 2.6. Lưu trace cho mỗi câu
 
-- [ ] Lưu `query_id` và trạng thái `answered`, `abstain` hoặc `error`.
-- [ ] Lưu model và tham số cấu hình của lần chạy.
-- [ ] Lưu query gốc; nếu viết lại query, lưu riêng query viết lại.
-- [ ] Lưu tên tool và tham số của từng lượt gọi.
-- [ ] Lưu kết quả retrieval có thứ hạng, score và nguồn.
-- [ ] Xuất top-3 cho query gốc để so sánh các phương pháp.
-- [ ] Lưu câu trả lời cuối và danh sách citation.
-- [ ] Lưu số lượt gọi retrieval.
-- [ ] Đo thời gian từng câu.
-- [ ] Ghi token và chi phí; ghi cách tính hoặc lý do không áp dụng.
-- [ ] Lưu lỗi model/DB riêng trong trace.
+- [x] Lưu `query_id` và trạng thái `answered`, `abstain` hoặc `error`.
+- [x] Lưu model và tham số cấu hình của lần chạy.
+- [x] Lưu query gốc; nếu viết lại query, lưu riêng query viết lại.
+- [x] Lưu tên tool và tham số của từng lượt gọi.
+- [x] Lưu kết quả retrieval có thứ hạng, score và nguồn.
+- [x] Xuất top-3 cho query gốc để so sánh các phương pháp.
+- [x] Lưu câu trả lời cuối và danh sách citation.
+- [x] Lưu số lượt gọi retrieval.
+- [x] Đo thời gian từng câu.
+- [x] Ghi token và chi phí; ghi cách tính hoặc lý do không áp dụng.
+- [x] Lưu lỗi model/DB riêng trong trace.
+
+Trace: `results/agent-<split>/<config>/traces.json`, kèm `config.json` (system prompt, schema tool, snapshot DB). Trường chính: `question`, `filter`, `rewritten_queries`, `original_query_top3`, `events` (tool, arguments, kết quả rank/score/nguồn/trang, ID thêm/trùng/bị bỏ), `context`, `context_blocks`, `answer`, `citations`, `citation_aliases`, `searches`, `elapsed_ms`, `rate_limit_wait_s`, `tokens`, `cost_usd`, `error`, `previous_errors`. Chi phí ước tính theo giá niêm yết Groq gpt-oss-120b ($0,15/1M token input, $0,075/1M cached, $0,60/1M output); free tier thực tế tính phí 0 USD. `d7-dev-u02` của cải thiện 2 lỗi provider (`tool_use_failed`) ở lần đầu, chạy lại bằng `--retry-errors`, lỗi cũ giữ ở `previous_errors`.
 
 ### 2.7. Code đánh giá tự động
 
-- [ ] Runner chỉ chọn đúng split được yêu cầu.
-- [ ] Chấm Hit@1 bằng đúng nguồn, trang và evidence.
-- [ ] Chấm Evidence Hit@3 với cùng cutoff cho mọi phương pháp.
-- [ ] Chấm Context Evidence Rate trên context cuối, không chỉ ID chunk.
-- [ ] Loại câu thiếu evidence khỏi mẫu số retrieval/context.
-- [ ] Đếm tool use và phân bố số lượt gọi.
-- [ ] Đếm câu trả lời có citation.
-- [ ] Báo lỗi provider riêng, không tính thành câu trả lời đúng hoặc từ chối đúng.
-- [ ] Xuất số đếm `n/N` và tỷ lệ; mẫu số 0 ghi không áp dụng.
+- [x] Runner chỉ chọn đúng split được yêu cầu.
+- [x] Chấm Hit@1 bằng đúng nguồn, trang và evidence.
+- [x] Chấm Evidence Hit@3 với cùng cutoff cho mọi phương pháp.
+- [x] Chấm Context Evidence Rate trên context cuối, không chỉ ID chunk.
+- [x] Loại câu thiếu evidence khỏi mẫu số retrieval/context.
+- [x] Đếm tool use và phân bố số lượt gọi.
+- [x] Đếm câu trả lời có citation.
+- [x] Báo lỗi provider riêng, không tính thành câu trả lời đúng hoặc từ chối đúng.
+- [x] Xuất số đếm `n/N` và tỷ lệ; mẫu số 0 ghi không áp dụng.
 - [x] Chạy 21 unit test (15 có sẵn + 6 kiểm tra dense); tất cả đạt.
+
+Retrieval: [src/retrieval_eval.py](src/retrieval_eval.py). Agent: [src/agent_eval.py](src/agent_eval.py) → `auto_metrics.json`. Hiện có 36 unit test, gồm test lexical/hybrid/context và vòng tool-calling với model giả lập phản hồi để kiểm tra luồng điều khiển; kết quả chất lượng chỉ lấy từ lần chạy model thật. Chạy test bằng `python -X utf8 -m unittest discover -s tests` vì `test_baseline` đọc file theo encoding mặc định cp1252 của Windows.
+
+Kết quả agent dev (17 câu, `gpt-oss-120b`):
+
+| Cấu hình | Context Evidence | Trả lời / 15 có đáp án | Từ chối / 2 thiếu evidence | Lượt tìm TB | Token in/out | Median s/câu (bỏ chờ rate limit) |
+|---|---:|---:|---:|---:|---:|---:|
+| baseline-dense (800 ký tự) | 5/15 | 6/15 | 2/2 | 1,82 | 48.842 / 4.735 | 4,2 |
+| improve1-dense-b2000 | 7/15 | 10/15 | 2/2 | 1,59 | 52.376 / 4.279 | 4,1 |
+| improve2-hybrid-b2000 | 12/15 | 14/15 | 2/2 | 1,41 | 47.789 / 3.814 | 3,9 |
 
 ### 2.8. Chấm thủ công
 

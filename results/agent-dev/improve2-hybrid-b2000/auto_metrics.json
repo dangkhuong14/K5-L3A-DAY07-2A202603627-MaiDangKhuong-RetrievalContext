@@ -1,0 +1,218 @@
+{
+  "split": "dev",
+  "traces": "results\\agent-dev\\improve2-hybrid-b2000\\traces.json",
+  "cases": 17,
+  "statuses": {
+    "answered": 14,
+    "abstain": 3
+  },
+  "provider_errors": 0,
+  "hit1": {
+    "n": 11,
+    "N": 15,
+    "rate": 0.7333333333333333,
+    "text": "11/15 (73.3%)"
+  },
+  "evidence_hit3": {
+    "n": 13,
+    "N": 15,
+    "rate": 0.8666666666666667,
+    "text": "13/15 (86.7%)"
+  },
+  "context_evidence": {
+    "n": 12,
+    "N": 15,
+    "rate": 0.8,
+    "text": "12/15 (80.0%)"
+  },
+  "tool_use": {
+    "n": 17,
+    "N": 17,
+    "rate": 1.0,
+    "text": "17/17 (100.0%)"
+  },
+  "searches_distribution": {
+    "1": 13,
+    "2": 1,
+    "3": 3
+  },
+  "mean_searches": 1.411764705882353,
+  "answers_with_citation": {
+    "n": 14,
+    "N": 14,
+    "rate": 1.0,
+    "text": "14/14 (100.0%)"
+  },
+  "total_citations": 14,
+  "answered_on_answerable": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.9333333333333333,
+    "text": "14/15 (93.3%)"
+  },
+  "abstain_on_unanswerable": {
+    "n": 2,
+    "N": 2,
+    "rate": 1.0,
+    "text": "2/2 (100.0%)"
+  },
+  "avg_context_chars": 1311,
+  "median_s": 13.848096499999883,
+  "median_s_excluding_rate_limit_wait": 3.87515379999968,
+  "total_s": 239.42251159999986,
+  "rate_limit_wait_s": 167.0,
+  "prompt_tokens": 47789,
+  "completion_tokens": 3814,
+  "estimated_cost_usd_list_price": 0.00792075,
+  "billed_cost_usd": 0,
+  "cost_note": "Ước tính theo giá niêm yết trong config; Groq free tier không tính phí.",
+  "per_case": [
+    {
+      "query_id": "d7-dev-01",
+      "hit1": true,
+      "hit3": true,
+      "context_evidence": true,
+      "status": "answered",
+      "searches": 1,
+      "citations": 1
+    },
+    {
+      "query_id": "d7-dev-02",
+      "hit1": false,
+      "hit3": true,
+      "context_evidence": true,
+      "status": "answered",
+      "searches": 1,
+      "citations": 1
+    },
+    {
+      "query_id": "d7-dev-03",
+      "hit1": true,
+      "hit3": true,
+      "context_evidence": true,
+      "status": "answered",
+      "searches": 2,
+      "citations": 1
+    },
+    {
+      "query_id": "d7-dev-04",
+      "hit1": true,
+      "hit3": true,
+      "context_evidence": true,
+      "status": "answered",
+      "searches": 1,
+      "citations": 1
+    },
+    {
+      "query_id": "d7-dev-05",
+      "hit1": false,
+      "hit3": false,
+      "context_evidence": false,
+      "status": "answered",
+      "searches": 1,
+      "citations": 1
+    },
+    {
+      "query_id": "d7-dev-06",
+      "hit1": true,
+      "hit3": true,
+      "context_evidence": false,
+      "status": "abstain",
+      "searches": 3,
+      "citations": 0
+    },
+    {
+      "query_id": "d7-dev-07",
+      "hit1": true,
+      "hit3": true,
+      "context_evidence": true,
+      "status": "answered",
+      "searches": 1,
+      "citations": 1
+    },
+    {
+      "query_id": "d7-dev-08",
+      "hit1": true,
+      "hit3": true,
+      "context_evidence": true,
+      "status": "answered",
+      "searches": 1,
+      "citations": 1
+    },
+    {
+      "query_id": "d7-dev-09",
+      "hit1": false,
+      "hit3": false,
+      "context_evidence": true,
+      "status": "answered",
+      "searches": 1,
+      "citations": 1
+    },
+    {
+      "query_id": "d7-dev-10",
+      "hit1": true,
+      "hit3": true,
+      "context_evidence": true,
+      "status": "answered",
+      "searches": 1,
+      "citations": 1
+    },
+    {
+      "query_id": "d7-dev-11",
+      "hit1": true,
+      "hit3": true,
+      "context_evidence": true,
+      "status": "answered",
+      "searches": 1,
+      "citations": 1
+    },
+    {
+      "query_id": "d7-dev-12",
+      "hit1": true,
+      "hit3": true,
+      "context_evidence": true,
+      "status": "answered",
+      "searches": 1,
+      "citations": 1
+    },
+    {
+      "query_id": "d7-dev-13",
+      "hit1": false,
+      "hit3": true,
+      "context_evidence": false,
+      "status": "answered",
+      "searches": 1,
+      "citations": 1
+    },
+    {
+      "query_id": "d7-dev-14",
+      "hit1": true,
+      "hit3": true,
+      "context_evidence": true,
+      "status": "answered",
+      "searches": 1,
+      "citations": 1
+    },
+    {
+      "query_id": "d7-dev-15",
+      "hit1": true,
+      "hit3": true,
+      "context_evidence": true,
+      "status": "answered",
+      "searches": 3,
+      "citations": 1
+    },
+    {
+      "query_id": "d7-dev-u01",
+      "status": "abstain",
+      "searches": 3,
+      "citations": 0
+    },
+    {
+      "query_id": "d7-dev-u02",
+      "status": "abstain",
+      "searches": 1,
+      "citations": 0
+    }
+  ]
+}
