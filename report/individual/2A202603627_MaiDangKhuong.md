@@ -66,7 +66,7 @@
     .\.venv\python.exe -X utf8 -m src.agent --config configs/selected.json --split test --output results/agent-test/selected-hybrid-b2000
     ```
 
-    Các cấu hình khác chạy tương tự, chỉ đổi `--config`, `--methods`, `--budget` và `--output`. Chunk local `starter/data/day6/chunks.json` (cho BM25/TF-IDF và evaluator) tái tạo theo lệnh trong [CHECKPOINT_DETAIL.md](../../CHECKPOINT_DETAIL.md) mục 4.
+    Các cấu hình khác chạy tương tự, chỉ đổi `--config`, `--methods`, `--budget` và `--output`. Chunk local `starter/data/day6/chunks.json` (cho BM25/TF-IDF và evaluator) tái tạo bằng hàm `convert_chunk` trong `starter/convert_day6.py` từ `starter/results/read_chunk/chunks_B.jsonl` của Lab 6 (trường `recreate_from` trong manifest); `src/dense.py` kiểm tra số chunk và checksum DB khớp manifest trước khi chạy.
   - Thời gian và chi phí: toàn bộ agent dev chạy 202 s, 211 s và 239 s cho 3 cấu hình, trong đó 131–167 s là chờ rate limit 8K token/phút của Groq free tier. Test chạy 48 s (baseline) và 66 s (cấu hình chọn). Tổng token cả 5 lần chạy là 183.325 input và 15.992 output, ước tính khoảng 0,031 USD theo giá niêm yết, thực trả 0 USD. Dense chạy embedding trên CPU.
 - Kết quả trước/sau, ví dụ lỗi, đánh đổi và giới hạn:
   - **Trước/sau trên dev:** từ baseline đến cấu hình chọn, context agent tăng từ 5/15 lên 12/15, grounded answer trung bình từ 0,60 lên 1,60, từ chối nhầm giảm từ 9/15 xuống 1/15, abstention giữ 2/2. Token gần như không đổi (53,6K so với 51,6K), median thời gian không tính chờ rate limit tương đương (4,2 s so với 3,9 s).
