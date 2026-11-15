@@ -1,0 +1,128 @@
+[
+  {
+    "method": "bm25-char4",
+    "top_k": 3,
+    "budget_chars": 2000,
+    "packing": "drop",
+    "filter": "không dùng filter",
+    "cases": 15,
+    "hit1": {
+      "n": 11,
+      "N": 15,
+      "rate": 0.7333333333333333,
+      "text": "11/15 (73.3%)"
+    },
+    "evidence_hit3": {
+      "n": 12,
+      "N": 15,
+      "rate": 0.8,
+      "text": "12/15 (80.0%)"
+    },
+    "hit_at_k": {
+      "n": 12,
+      "N": 15,
+      "rate": 0.8,
+      "text": "12/15 (80.0%)"
+    },
+    "context_evidence": {
+      "n": 12,
+      "N": 15,
+      "rate": 0.8,
+      "text": "12/15 (80.0%)"
+    },
+    "avg_context_chars": 1584.8,
+    "median_ms": 32.35880000011093,
+    "total_ms": 471.0781999988285,
+    "setup_s": 0.4650603999998566,
+    "service_cost_usd": 0,
+    "cost_note": "Chạy local; không gọi API trả phí.",
+    "split": "dev",
+    "db_snapshot": null
+  },
+  {
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 2000,
+    "packing": "drop",
+    "filter": "không dùng filter",
+    "cases": 15,
+    "hit1": {
+      "n": 6,
+      "N": 15,
+      "rate": 0.4,
+      "text": "6/15 (40.0%)"
+    },
+    "evidence_hit3": {
+      "n": 10,
+      "N": 15,
+      "rate": 0.6666666666666666,
+      "text": "10/15 (66.7%)"
+    },
+    "hit_at_k": {
+      "n": 10,
+      "N": 15,
+      "rate": 0.6666666666666666,
+      "text": "10/15 (66.7%)"
+    },
+    "context_evidence": {
+      "n": 10,
+      "N": 15,
+      "rate": 0.6666666666666666,
+      "text": "10/15 (66.7%)"
+    },
+    "avg_context_chars": 1637.2666666666667,
+    "median_ms": 205.48379999991084,
+    "total_ms": 3123.4917000001587,
+    "setup_s": 11.560122899999897,
+    "service_cost_usd": 0,
+    "cost_note": "Chạy local; không gọi API trả phí.",
+    "split": "dev",
+    "db_snapshot": {
+      "count": 2864,
+      "digest": "efb5ed762003e52c8804fad05156f9fe"
+    }
+  },
+  {
+    "method": "hybrid-char4",
+    "top_k": 3,
+    "budget_chars": 2000,
+    "packing": "drop",
+    "filter": "không dùng filter",
+    "cases": 15,
+    "hit1": {
+      "n": 10,
+      "N": 15,
+      "rate": 0.6666666666666666,
+      "text": "10/15 (66.7%)"
+    },
+    "evidence_hit3": {
+      "n": 12,
+      "N": 15,
+      "rate": 0.8,
+      "text": "12/15 (80.0%)"
+    },
+    "hit_at_k": {
+      "n": 12,
+      "N": 15,
+      "rate": 0.8,
+      "text": "12/15 (80.0%)"
+    },
+    "context_evidence": {
+      "n": 12,
+      "N": 15,
+      "rate": 0.8,
+      "text": "12/15 (80.0%)"
+    },
+    "avg_context_chars": 1685.6666666666667,
+    "median_ms": 240.22249999961787,
+    "total_ms": 3686.956799998825,
+    "setup_s": 1.5999999959603883e-05,
+    "service_cost_usd": 0,
+    "cost_note": "Chạy local; không gọi API trả phí.",
+    "split": "dev",
+    "db_snapshot": {
+      "count": 2864,
+      "digest": "efb5ed762003e52c8804fad05156f9fe"
+    }
+  }
+]

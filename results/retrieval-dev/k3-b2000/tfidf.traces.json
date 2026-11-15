@@ -1,0 +1,992 @@
+[
+  {
+    "query_id": "d7-dev-01",
+    "question": "Theo sách, việc bộc lộ tài năng quá mức trước cấp trên có thể gây phản tác dụng như thế nào?",
+    "filter_applied": null,
+    "top3": [
+      {
+        "id": "bc33bc558a7c7275200a14f1c9549a5134b3c41dca5f8b467d59d5bbc0d68658",
+        "rank": 1,
+        "score": 0.21828098339977106,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 18,
+        "section": "nguyen_tac_01",
+        "hit": true
+      },
+      {
+        "id": "c156acd7118096db07d5f438747ab972bdd1c7b480a007dbcf995823be4dfde0",
+        "rank": 2,
+        "score": 0.17171164876016898,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 661,
+        "section": "nguyen_tac_47",
+        "hit": false
+      },
+      {
+        "id": "ad8f0cd65c19c76a2a6acb7d6f76707c3d9b3ac688a40f0520807e886148afa0",
+        "rank": 3,
+        "score": 0.15068123358472504,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 602,
+        "section": "nguyen_tac_44",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "bc33bc558a7c7275200a14f1c9549a5134b3c41dca5f8b467d59d5bbc0d68658",
+        "rank": 1,
+        "page": 18,
+        "hit": true
+      },
+      {
+        "id": "c156acd7118096db07d5f438747ab972bdd1c7b480a007dbcf995823be4dfde0",
+        "rank": 2,
+        "page": 661,
+        "hit": false
+      },
+      {
+        "id": "ad8f0cd65c19c76a2a6acb7d6f76707c3d9b3ac688a40f0520807e886148afa0",
+        "rank": 3,
+        "page": 602,
+        "hit": false
+      }
+    ],
+    "context": "[bc33bc558a7c7275200a14f1c9549a5134b3c41dca5f8b467d59d5bbc0d68658 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 18 | nguyen_tac_01]\nNGUYÊN TẮC\n\n1\n\nĐỪNG BAO GIỜ CHƠI TRỘI QUAN THẦY\n\nLuôn khéo léo làm cho c ấp trên c ảm thấy họ hơn bạn. Trong khi gây ấn tượng và thỏa mãn họ, bạn đừng quá đ{, nghĩa l{ đ ừng bộc lộ t{i năng, nếu không b ạn sẽ bị phản tác d ụng: bạn s ẽ khiến họ e ng ại và b ất an. Hãy làm sao cho những ông thầy, ông chủ của bạn cảm thấy giỏi giang hơn l{ thực chất của họ, bạn sẽ đạt được tầm cao của uy quyền.\n\n[c156acd7118096db07d5f438747ab972bdd1c7b480a007dbcf995823be4dfde0 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 661 | nguyen_tac_47]\nQuá nhiều bạo lực sẽ tạo ra phản\n\n[ad8f0cd65c19c76a2a6acb7d6f76707c3d9b3ac688a40f0520807e886148afa0 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 602 | nguyen_tac_44]\nÍt ai cư ỡng nổi cái c ảm giác r ằng tình c ảm tinh tế của mình được phản chiếu một c|ch h{i hòa như v ậy, ngay cả khi sự phản chiếu đó l{ do ta c ố ý dựng lên nhằm mục đích l ừa đảo. Tác dụng Narcissus hữu ích trên cả hai bình diện đời sống xã hội và kinh doanh, cung cấp cho ta tấm Gương soi của Kẻ quyến rũ và Gã cận thần.",
+    "context_ids": [
+      "bc33bc558a7c7275200a14f1c9549a5134b3c41dca5f8b467d59d5bbc0d68658",
+      "c156acd7118096db07d5f438747ab972bdd1c7b480a007dbcf995823be4dfde0",
+      "ad8f0cd65c19c76a2a6acb7d6f76707c3d9b3ac688a40f0520807e886148afa0"
+    ],
+    "context_chars": 1166,
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 13.214800000241667
+  },
+  {
+    "query_id": "d7-dev-02",
+    "question": "Theo câu chuyện Fouquet, ai được Louis XIV chọn làm người kế nhiệm ông?",
+    "filter_applied": null,
+    "top3": [
+      {
+        "id": "bcb423de70605d22c052581cf778f08e6eaad3767af6d4c9c4f7287cda3badc3",
+        "rank": 1,
+        "score": 0.3338403784395764,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 19,
+        "section": "nguyen_tac_01",
+        "hit": false
+      },
+      {
+        "id": "899d9a394abe1f8ffdadc97db41dc84f4eec7034e1a21311b9ab128ebe0ac206",
+        "rank": 2,
+        "score": 0.31846981809145847,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 21,
+        "section": "nguyen_tac_01",
+        "hit": false
+      },
+      {
+        "id": "90601b6617abc8d772c99e365338cd4c707123811cbc3d7bbfffe8271b6fd398",
+        "rank": 3,
+        "score": 0.3032373102371153,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 20,
+        "section": "nguyen_tac_01",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "bcb423de70605d22c052581cf778f08e6eaad3767af6d4c9c4f7287cda3badc3",
+        "rank": 1,
+        "page": 19,
+        "hit": false
+      },
+      {
+        "id": "899d9a394abe1f8ffdadc97db41dc84f4eec7034e1a21311b9ab128ebe0ac206",
+        "rank": 2,
+        "page": 21,
+        "hit": false
+      },
+      {
+        "id": "90601b6617abc8d772c99e365338cd4c707123811cbc3d7bbfffe8271b6fd398",
+        "rank": 3,
+        "page": 20,
+        "hit": false
+      }
+    ],
+    "context": "[bcb423de70605d22c052581cf778f08e6eaad3767af6d4c9c4f7287cda3badc3 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 19 | nguyen_tac_01]\nNicolas Fouquet là bộ trưởng tài chính vào nh ững năm đ ầu tiên khi vua Louis XIV của Pháp mới lên ngôi. Fouquet l{ người hào hoa rộng r~i, thích rượu ngon, g|i đẹp, thi ca và những yến tiệc linh đình. Ông cũng thích có nhi ều tiền, vì l ối sống của ông r ất xa hoa. Fouquet rất giỏi giang và tin r ằng t{i năng c ủa mình thiết yếu đối với nhà vua. Vì vậy v{o năm 1661 khi thủ tướng Jules Mazarin qua đời, Fouquet trông ch ờ vua bổ nhiệm mình k ế vị.\n\n[899d9a394abe1f8ffdadc97db41dc84f4eec7034e1a21311b9ab128ebe0ac206 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 21 | nguyen_tac_01]\nTuy nhiên cứ với mỗi màn trình di ễn, m ỗi ti ếng hoan hô c ủa kh|ch hư ớng v ề Fouquet lại làm cho v ị vua trẻ cảm thấy rằng quần thần và bè b ạn mình mê mẩn Fouquet hơn vua, v{ r ằng thật ra Fouquet đang phô trương thanh th ế và uy quy ền. Thay vì tôn vinh vua, bu ổi dạ hội của Fouquet lại làm tổn thương sự kiêu căng của ngài. Tất nhiên là Louis XIV không thể nào công khai nhìn nhận sự việc đó, vì vậy ông tìm cớ thủ tiêu người vô tình làm cho mình cảm thấy mất tự tin.\n\n[90601b6617abc8d772c99e365338cd4c707123811cbc3d7bbfffe8271b6fd398 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 20 | nguyen_tac_01]\nV ới dòng chảy này, Louis XIV cho xây dựng một hoàng cung còn lộng lẫy hơn tòa l}u đ{i c ủa Fouquet, đó chính l{ cung đi ện Versailles còn t ồn tại đ ến ng{y nay. Vua trưng d ụng những kiến trúc sư, ngh ệ nhân thiết k ế v{ trang trí vư ờn tư ợc c ủa Fouquet. Và t ại hoàng cung Versailles, Louis XIV tổ chức những yến tiệc còn linh đình hơn buổi dạ hội m{ Fouquet đ~ trả giá bằng những ngày tù tội của mình.",
+    "context_ids": [
+      "bcb423de70605d22c052581cf778f08e6eaad3767af6d4c9c4f7287cda3badc3",
+      "899d9a394abe1f8ffdadc97db41dc84f4eec7034e1a21311b9ab128ebe0ac206",
+      "90601b6617abc8d772c99e365338cd4c707123811cbc3d7bbfffe8271b6fd398"
+    ],
+    "context_chars": 1743,
+    "hit1": false,
+    "hit3": false,
+    "hitk": false,
+    "context_hit": false,
+    "elapsed_ms": 11.338299999806623
+  },
+  {
+    "query_id": "d7-dev-03",
+    "question": "Theo sách, năm 1610 Cosimo II đã bổ nhiệm Galileo vào những chức vụ nào và với chế độ lương bổng ra sao?",
+    "filter_applied": null,
+    "top3": [
+      {
+        "id": "c4a07a2639a065f68c6837b78c949a74867e562d9c386119b9f483c79c7e2093",
+        "rank": 1,
+        "score": 0.3139719632693864,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 23,
+        "section": "nguyen_tac_01",
+        "hit": true
+      },
+      {
+        "id": "3fe4868af6e3945f623159cfac51257135a320ad597b035212bb324861ef9eea",
+        "rank": 2,
+        "score": 0.20193041652791233,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 23,
+        "section": "nguyen_tac_01",
+        "hit": false
+      },
+      {
+        "id": "5459e7eebf2d640f527d1817e79f22f022d9224f083110dd1cb3ea8fdefd5dfd",
+        "rank": 3,
+        "score": 0.2010166824275093,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 22,
+        "section": "nguyen_tac_01",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "c4a07a2639a065f68c6837b78c949a74867e562d9c386119b9f483c79c7e2093",
+        "rank": 1,
+        "page": 23,
+        "hit": true
+      },
+      {
+        "id": "3fe4868af6e3945f623159cfac51257135a320ad597b035212bb324861ef9eea",
+        "rank": 2,
+        "page": 23,
+        "hit": false
+      },
+      {
+        "id": "5459e7eebf2d640f527d1817e79f22f022d9224f083110dd1cb3ea8fdefd5dfd",
+        "rank": 3,
+        "page": 22,
+        "hit": false
+      }
+    ],
+    "context": "[c4a07a2639a065f68c6837b78c949a74867e562d9c386119b9f483c79c7e2093 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 23 | nguyen_tac_01]\nV{o năm 1610, Cosimo II b ổ nhiệm Galileo làm tri ết gia và nhà toán h ọc chính th ức của tri ều đình, kèm lương b ổng đ ầy đ ủ. Với một khoa h ọc gia, đó l{ v ận may c ủa c ả một đ ời. Chuỗi ngày van xin bảo trợ đ~ qua rồi.\n\n[3fe4868af6e3945f623159cfac51257135a320ad597b035212bb324861ef9eea | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 23 | nguyen_tac_01]\n48 NGUYÊN TẮC CHỦ CHỐT CỦA QUYỀN LỰC Robert Greene & Joost Elffers 26\n\nđình Medici (Cosimo II có ba ngư ời em), và v ệ tinh xoay qu anh Jupiter như b ốn người con sum v ậy quanh Cosimo I, k ẻ khai sáng triều Medici. Còn hơn l{ m ột sự trùng hợp, kh|m ph| đó ch ứng tỏ c|c thiên vương cũng cho th ấy uy l ực c ủa h ọ Medici, Galileo cho thiết kế huy hiệu có hình th ần Jupiter đang ng ồi trên đ|m m}y có bốn ngôi sao vây quanh và tặng cho Cosimo II như muốn nhắn nhủ rằng đó l{m mệnh trời.\n\n[5459e7eebf2d640f527d1817e79f22f022d9224f083110dd1cb3ea8fdefd5dfd | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 22 | nguyen_tac_01]\nTuy nhiên cho dù phát minh sáng ch ế của Galileo có quan tr ọng cách m ấy thì nh ững gia đình quy ền uy kia đều luôn thư ởng công cho ông b ằng quà bi ếu chứ không có ti ền mặt. Đi ều này làm cho cu ộc sống c ủa Galileo luôn b ấp bênh và l ệ thuộc. Ông tự nhủ phải tìm ra cách sống kh| hơn. Galileo quyết thực thi một chiến lược mới v{o năm 1610, khi ông khám phá ra các v ệ tinh của hành tinh Jupiter.",
+    "context_ids": [
+      "c4a07a2639a065f68c6837b78c949a74867e562d9c386119b9f483c79c7e2093",
+      "3fe4868af6e3945f623159cfac51257135a320ad597b035212bb324861ef9eea",
+      "5459e7eebf2d640f527d1817e79f22f022d9224f083110dd1cb3ea8fdefd5dfd"
+    ],
+    "context_chars": 1526,
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 16.330200000084005
+  },
+  {
+    "query_id": "d7-dev-04",
+    "question": "Vì sao tác giả cho rằng một kẻ thù cũ được thu nhận có thể trung thành hơn bạn bè?",
+    "filter_applied": null,
+    "top3": [
+      {
+        "id": "2ef22d5b4dce3a9072ec145da2c0e43396dfa5a072adbb18d7b708cc18baf99b",
+        "rank": 1,
+        "score": 0.44909348125055326,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 30,
+        "section": "nguyen_tac_02",
+        "hit": true
+      },
+      {
+        "id": "0c204a7f9c91d81e33d6617718987f9617719ce869e43e3afa9c19aa028326a3",
+        "rank": 2,
+        "score": 0.3418533298078553,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 42,
+        "section": "nguyen_tac_02",
+        "hit": false
+      },
+      {
+        "id": "9918a7d7ed9c3a18fcd9c910f7b1cce099dec81f01fbe5410e4306f154e91acc",
+        "rank": 3,
+        "score": 0.3315951054774884,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 36,
+        "section": "nguyen_tac_02",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "2ef22d5b4dce3a9072ec145da2c0e43396dfa5a072adbb18d7b708cc18baf99b",
+        "rank": 1,
+        "page": 30,
+        "hit": true
+      },
+      {
+        "id": "0c204a7f9c91d81e33d6617718987f9617719ce869e43e3afa9c19aa028326a3",
+        "rank": 2,
+        "page": 42,
+        "hit": false
+      },
+      {
+        "id": "9918a7d7ed9c3a18fcd9c910f7b1cce099dec81f01fbe5410e4306f154e91acc",
+        "rank": 3,
+        "page": 36,
+        "hit": false
+      }
+    ],
+    "context": "[2ef22d5b4dce3a9072ec145da2c0e43396dfa5a072adbb18d7b708cc18baf99b | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 30 | nguyen_tac_02]\nNGUYÊN TẮC\n\n2\n\nĐỪNG QUÁ TIN CẬY BẠN BÈ, HÃY HỌC CÁCH SỬ DỤNG KẺ THÙ\n\nHãy thận trọng với bạn bè – họ dễ dàng phản bội bạn, vì họ dễ bị lòng đố kỵ khuấy động. Ngoài ra h ọ cũng dễ hư hỏng v{ có khuynh hướng nắm quyền. Hãy thu nhận một kẻ thù cũ v{ h ắn sẽ trung kiên hơn b ạn bè, vì hắn cần phải chứng minh nhi ều hơn. Thật ra b ạn có nhi ều điều phải e sợ từ bạn bè hơn l{ từ kẻ thù. Nếu bạn chưa có, hãy tìm cách tạo ra kẻ thù.\n\n[0c204a7f9c91d81e33d6617718987f9617719ce869e43e3afa9c19aa028326a3 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 42 | nguyen_tac_02]\nĐỪNG QUÁ TIN CẬY BẠN BÈ, HÃY HỌC CÁCH SỬ DỤNG KẺ THÙ 45\n\nNGHỊCH ĐẢO\n\nMặc dù nhìn chung thì tốt hơn ta không nên để tình bạn chen vào công việc, nhưng vẫn có lúc bạn bè hữu hiệu hơn kẻ thù. Chẳng hạn như một người quyền bính luôn có những việc bẩn cần người khác làm thế. Và những lúc này bạn bè sẽ thực hiện tốt hơn, vì tình cảm với ta. Ngo{i ra vì lý do n{o đó nếu kế hoạch bị hỏng, ta vẫn có thể sử dụng bạn bè làm vật bung xung.\n\n[9918a7d7ed9c3a18fcd9c910f7b1cce099dec81f01fbe5410e4306f154e91acc | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 36 | nguyen_tac_02]\nThay vì dựa vào bè bạn, Triệu sử dụng kẻ thù, hết người này đến người khác, bi ến h ọ trở thành qu ần th ần đ|ng tin c ậy hơn. Trong khi b ạn bè càng lúc càng nhi ều tham v ọng v{ đ ố kỵ, những kẻ thù cũ đó không trông chờ điều gì cả mà lại được rất nhiều. Một người đột nhiên tho|t được tội trảm sẽ vô vàn biết ơn v{ sẽ kết cỏ ngậm v{nh cho người đ~ tha tội chết. Rốt cuộc, những kẻ thù cũ đó trở th{nh người tin cẩn nhất của Tống Thái tổ. Và cuối cùng Tri ệu",
+    "context_ids": [
+      "2ef22d5b4dce3a9072ec145da2c0e43396dfa5a072adbb18d7b708cc18baf99b",
+      "0c204a7f9c91d81e33d6617718987f9617719ce869e43e3afa9c19aa028326a3",
+      "9918a7d7ed9c3a18fcd9c910f7b1cce099dec81f01fbe5410e4306f154e91acc"
+    ],
+    "context_chars": 1730,
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 14.66549999986455
+  },
+  {
+    "query_id": "d7-dev-05",
+    "question": "Theo sách, vì sao việc không để lộ ý đồ khiến người khác khó chuẩn bị đối phó?",
+    "filter_applied": null,
+    "top3": [
+      {
+        "id": "31c3fab01ef9f4eea5211d3c1b6496c78c629493e718024cce80ccef20cbe5fd",
+        "rank": 1,
+        "score": 0.18048109442042848,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 133,
+        "section": "nguyen_tac_08",
+        "hit": false
+      },
+      {
+        "id": "ef08f688b704f36178c6317ffea84f480a06ec7ff1b4d7b53f97f3a63da7565b",
+        "rank": 2,
+        "score": 0.1776311307735859,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 109,
+        "section": "nguyen_tac_06",
+        "hit": false
+      },
+      {
+        "id": "4ebafe8a5c2050a1880d3354fc3e558ebb9125b32cd7e80a068281fa149e93f5",
+        "rank": 3,
+        "score": 0.1704116860351785,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 673,
+        "section": "nguyen_tac_48",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "31c3fab01ef9f4eea5211d3c1b6496c78c629493e718024cce80ccef20cbe5fd",
+        "rank": 1,
+        "page": 133,
+        "hit": false
+      },
+      {
+        "id": "ef08f688b704f36178c6317ffea84f480a06ec7ff1b4d7b53f97f3a63da7565b",
+        "rank": 2,
+        "page": 109,
+        "hit": false
+      },
+      {
+        "id": "4ebafe8a5c2050a1880d3354fc3e558ebb9125b32cd7e80a068281fa149e93f5",
+        "rank": 3,
+        "page": 673,
+        "hit": false
+      }
+    ],
+    "context": "[31c3fab01ef9f4eea5211d3c1b6496c78c629493e718024cce80ccef20cbe5fd | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 133 | nguyen_tac_08]\n48 NGUYÊN TẮC CHỦ CHỐT CỦA QUYỀN LỰC Robert Greene & Joost Elffers 136\n\nđịnh và nắm thế chủ đạo. T ấn công th ần t ốc là th ứ vũ khí kh ủng khiếp, vì nó d ồn đ ối phương v{o th ế phải đ ối phó m{ không đ ủ thời gian suy nghĩ ho ặc l ập k ế hoạch. Trong nh ững trư ờng h ợp như vậy, đối phương sẽ sai lầm về ph|n đo|n v{ lui v ề thế bị động. Chiến thuật n{y ngược lại với chiêu giăng bẫy và chờ đợi, nhưng lại có cùng mục đích: L{m cho địch thủ đối phó theo điều kiện của ta.\n\n[ef08f688b704f36178c6317ffea84f480a06ec7ff1b4d7b53f97f3a63da7565b | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 109 | nguyen_tac_06]\nKhi nào l ỡ bị sập b ẫy, d ồn v{o ch}n tư ờng, b ị đặt vào th ế chống đ ỡ, b ạn hãy thí nghi ệm thử: Hãy th ực hiện đi ều gì đó khó hiểu, khó gi ải thích. B ạn chọn một đ ộng t|c đơn gi ản thôi, nhưng lại tiến h{nh theo c|ch m{ đối phương không thể giải đo|n nổi, hay nói đúng hơn l{ có qu| nhiều cách giải đo|n, trùm lên ý đồ của bạn một màn bí ẩn. Bạn không ch ỉ l{m cho đối phương lúng túng nghĩ mãi không ra. Hãy b ắt chước Hannibal, d ựng lên m ột cảnh tượng khó lường.\n\n[4ebafe8a5c2050a1880d3354fc3e558ebb9125b32cd7e80a068281fa149e93f5 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 673 | nguyen_tac_48]\nvà vận dụng ý ni ệm cờ vào chiến lược. Chẳng hạn một ý ni ệm chủ chốt l{ b{nh trư ớng hết diện tích của bàn cờ theo nhiều hướng, để đối thủ không thể lường hết được ý đồ của ta theo kiểu tuyến tính. Mao khuyến khích c|c binh đo{n c ủa ông đ|nh theo ki ểu cờ v}y, sao chi đ ịch không th ể đo|n trư ớc ý đ ịnh ho ặc hư ớng đi ều binh. Đ ịch s ẽ mất thì gi ờ truy đu ổi, hoặc như Tư ởng Gi ới Th ạch, ông ta đ|nh gi| thấp đối phương nên lơi lỏng phòng vệ.",
+    "context_ids": [
+      "31c3fab01ef9f4eea5211d3c1b6496c78c629493e718024cce80ccef20cbe5fd",
+      "ef08f688b704f36178c6317ffea84f480a06ec7ff1b4d7b53f97f3a63da7565b",
+      "4ebafe8a5c2050a1880d3354fc3e558ebb9125b32cd7e80a068281fa149e93f5"
+    ],
+    "context_chars": 1815,
+    "hit1": false,
+    "hit3": false,
+    "hitk": false,
+    "context_hit": false,
+    "elapsed_ms": 12.876700000106212
+  },
+  {
+    "query_id": "d7-dev-06",
+    "question": "Theo sách, nói quá nhiều để gây ấn tượng có thể khiến người nói bị nhìn nhận ra sao và mất điều gì?",
+    "filter_applied": null,
+    "top3": [
+      {
+        "id": "f25d9c3b25569a883f3b11389b5a07fcade87c515cdfe17369f1b1b43bbd4115",
+        "rank": 1,
+        "score": 0.32670181563649703,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 70,
+        "section": "nguyen_tac_04",
+        "hit": true
+      },
+      {
+        "id": "b9ef4bbba6299e7347a2c677aa161c4fceff6eb96fd66dda6d435996ef8fb62b",
+        "rank": 2,
+        "score": 0.21679981989381977,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 191,
+        "section": "nguyen_tac_14",
+        "hit": false
+      },
+      {
+        "id": "5407f2c22e7fc083f87e8ad4813055b939f0cb55c26ea7dcf1bb46ffd197e1b0",
+        "rank": 3,
+        "score": 0.19483887679359724,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 76,
+        "section": "nguyen_tac_04",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "f25d9c3b25569a883f3b11389b5a07fcade87c515cdfe17369f1b1b43bbd4115",
+        "rank": 1,
+        "page": 70,
+        "hit": true
+      },
+      {
+        "id": "b9ef4bbba6299e7347a2c677aa161c4fceff6eb96fd66dda6d435996ef8fb62b",
+        "rank": 2,
+        "page": 191,
+        "hit": false
+      },
+      {
+        "id": "5407f2c22e7fc083f87e8ad4813055b939f0cb55c26ea7dcf1bb46ffd197e1b0",
+        "rank": 3,
+        "page": 76,
+        "hit": false
+      }
+    ],
+    "context": "[f25d9c3b25569a883f3b11389b5a07fcade87c515cdfe17369f1b1b43bbd4115 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 70 | nguyen_tac_04]\nNGUYÊN TẮC\n\n4\n\nLUÔN NÓI ÍT HƠN MỨC CẦN THIẾT\n\nBạn đ ịnh t ạo ấn tư ợng v ới m ọi ngư ời b ằng l ời nói, nhưng h ễ nói càng nhi ều thì b ạn càng có v ẻ tầm thường và mất đi kh ả năng kiểm soát. Dù c ần nói m ột điều gì đó thật bình thư ờng thì b ạn cũng nên diễn t ả thật mơ h ồ, bí ẩn v{ để ngỏ. Người uy quyền khiến cho kẻ khác ph ải rụt rè và e s ợ vì h ọ nói ít hơn m ức c ần thiết. Càng nói nhiều thì b ạn càng có xác su ất nói ra điều không nói cao hơn.\n\n[b9ef4bbba6299e7347a2c677aa161c4fceff6eb96fd66dda6d435996ef8fb62b | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 191 | nguyen_tac_14]\nMuốn nắm quyền, bạn nên kiểm so|t được ít nhiều những gì sắp x ảy ra. Vì v ậy một ph ần v ấn đ ề của bạn là làm sao bi ết đư ợc những suy nghĩ, c ảm xúc, và k ế hoạch của đối tượng. Nếu làm chủ được những gì họ nói ra, c|c đối tượng sẽ che giấu điều quan trọng nhất c ủa tính cách – những như ợc đi ểm, ch ủ đích, đam mê. H ậu quả là bạn không thể tiên đo|n được nước cờ của họ. Ngón nghề ở đ}y l{ bạn phải tìm ra c|ch đi ều tra để phát hiện những bí m ật và chủ đích m{ đừng để họ biết.\n\n[5407f2c22e7fc083f87e8ad4813055b939f0cb55c26ea7dcf1bb46ffd197e1b0 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 76 | nguyen_tac_04]\nLUÔN NÓI ÍT HƠN MỨC CẦN THIẾT 79\n\nmắt. Mọi thứ trong ông đều có giá b ởi vì ông bi ết tạo ra cách bi ệt và uy nghi c ủa ông c{ng đư ợc tôn cao b ằng nh ững l ời nói hi ếm hoi.”\n\nVới một quần thần, việc nói ra điều không nên nói còn nguy hại hơn l{ l{m điều không nên làm. (Hồng y De Retz, 1613-1679)\n\nCỐT TỦY CỦA NGUYÊN TẮC",
+    "context_ids": [
+      "f25d9c3b25569a883f3b11389b5a07fcade87c515cdfe17369f1b1b43bbd4115",
+      "b9ef4bbba6299e7347a2c677aa161c4fceff6eb96fd66dda6d435996ef8fb62b",
+      "5407f2c22e7fc083f87e8ad4813055b939f0cb55c26ea7dcf1bb46ffd197e1b0"
+    ],
+    "context_chars": 1681,
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 19.030100000236416
+  },
+  {
+    "query_id": "d7-dev-07",
+    "question": "Trong phần nghịch đảo của Nguyên tắc 4, khi nào im lặng có thể trở thành lựa chọn thiếu khôn ngoan?",
+    "filter_applied": null,
+    "top3": [
+      {
+        "id": "b37179df68d1a4df09bb4071af71ed39cf9d53ca2bae5f72f9e8c34b32db9ac6",
+        "rank": 1,
+        "score": 0.2309854204124032,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 428,
+        "section": "nguyen_tac_31",
+        "hit": false
+      },
+      {
+        "id": "8b3be23eedf3351b3bc923c128799dd0f2ac7455449501a1504f085c1dbde23f",
+        "rank": 2,
+        "score": 0.22160588815494653,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 168,
+        "section": "nguyen_tac_12",
+        "hit": false
+      },
+      {
+        "id": "d30205a7c4e233186088660fb23e23ba2c6a01af88131fdb0b0f44e4967a7698",
+        "rank": 3,
+        "score": 0.21685429315302707,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 421,
+        "section": "nguyen_tac_30",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "b37179df68d1a4df09bb4071af71ed39cf9d53ca2bae5f72f9e8c34b32db9ac6",
+        "rank": 1,
+        "page": 428,
+        "hit": false
+      },
+      {
+        "id": "8b3be23eedf3351b3bc923c128799dd0f2ac7455449501a1504f085c1dbde23f",
+        "rank": 2,
+        "page": 168,
+        "hit": false
+      },
+      {
+        "id": "d30205a7c4e233186088660fb23e23ba2c6a01af88131fdb0b0f44e4967a7698",
+        "rank": 3,
+        "page": 421,
+        "hit": false
+      }
+    ],
+    "context": "[b37179df68d1a4df09bb4071af71ed39cf9d53ca2bae5f72f9e8c34b32db9ac6 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 428 | nguyen_tac_31]\nNhững từ như “tự do”, “tùy ch ọn” v{ “ch ọn lựa” gợi lên m ột khả năng quyền lực cao xa hơn nghĩa th ực tế của chúng. N ếu xem xét kỹ lưỡng, ta thấy rằng nh ững lựa chọn được chào m ời – trên thương trư ờng, khi đi b ầu, trong công vi ệc - đều ít nhi ều b ị giới hạn: Thường khi đó l{ vấn đề chỉ lựa chọn giữa A và B, phần còn lại của bảng chữ c|i không được trưng ra. Ta “lựa chọn” vì ta tin r ằng cuộc c hơi không gian l ận, r ằng ta đư ợc t ự do.\n\n[8b3be23eedf3351b3bc923c128799dd0f2ac7455449501a1504f085c1dbde23f | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 168 | nguyen_tac_12]\nSỬ DỤNG NHÂN NGHĨA CÓ LỰA CHỌN 171\n\nTUÂN THỦ NGUYÊN TẮC\n\n[d30205a7c4e233186088660fb23e23ba2c6a01af88131fdb0b0f44e4967a7698 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 421 | nguyen_tac_30]\nNếu để người khác thấy nỗ lực bên trong, b ạn lập tức trở th{nh ngư ời t ầm thư ờng như m ọi ngư ời kh|c. Đi ều gì hi ểu được thì không còn bí m ật đ|ng gờm - bản thân chúng ta từng bảo rằng nếu tôi có ti ền bạc và thời gian thì cũng có th ể l{m được như hắn. H~y cư ỡng lại khuynh hướng chứng tỏ mình khôn ngoan - sẽ l{ khôn ngoan hơn n ữa nếu bạn che gi ấu được những cơ ch ế của sự khôn ngoan ấy.",
+    "context_ids": [
+      "b37179df68d1a4df09bb4071af71ed39cf9d53ca2bae5f72f9e8c34b32db9ac6",
+      "8b3be23eedf3351b3bc923c128799dd0f2ac7455449501a1504f085c1dbde23f",
+      "d30205a7c4e233186088660fb23e23ba2c6a01af88131fdb0b0f44e4967a7698"
+    ],
+    "context_chars": 1318,
+    "hit1": false,
+    "hit3": false,
+    "hitk": false,
+    "context_hit": false,
+    "elapsed_ms": 27.28000000024622
+  },
+  {
+    "query_id": "d7-dev-08",
+    "question": "Theo sách, khi thanh danh tuột dốc thì người đó phải đối mặt với nguy cơ nào?",
+    "filter_applied": null,
+    "top3": [
+      {
+        "id": "b2fd9f865a9876e8dd75210c33dad06d6e7e6f3170fc2336480ce5e5bbb34450",
+        "rank": 1,
+        "score": 0.2618441955266659,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 80,
+        "section": "nguyen_tac_05",
+        "hit": true
+      },
+      {
+        "id": "8c0051c22572a5c39ba5376d21875b726b9b218da7d95a08f9ee9cf23209adaa",
+        "rank": 2,
+        "score": 0.22851912222941725,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 88,
+        "section": "nguyen_tac_05",
+        "hit": false
+      },
+      {
+        "id": "92cac89ddfc06157024ce00280230a550182d0d544215d12d05fad08a11515b5",
+        "rank": 3,
+        "score": 0.17830090440808077,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 544,
+        "section": "nguyen_tac_40",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "b2fd9f865a9876e8dd75210c33dad06d6e7e6f3170fc2336480ce5e5bbb34450",
+        "rank": 1,
+        "page": 80,
+        "hit": true
+      },
+      {
+        "id": "8c0051c22572a5c39ba5376d21875b726b9b218da7d95a08f9ee9cf23209adaa",
+        "rank": 2,
+        "page": 88,
+        "hit": false
+      },
+      {
+        "id": "92cac89ddfc06157024ce00280230a550182d0d544215d12d05fad08a11515b5",
+        "rank": 3,
+        "page": 544,
+        "hit": false
+      }
+    ],
+    "context": "[b2fd9f865a9876e8dd75210c33dad06d6e7e6f3170fc2336480ce5e5bbb34450 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 80 | nguyen_tac_05]\nThanh danh l{ hòn đ| t ảng c ủa uy quy ền. Chỉ cần có thanh danh là b ạn đ~ có th ể hù d ọa ngư ời kh ác và chiến thắng họ. Tuy nhiên khi thanh danh tu ột dốc thì bạn d ễ bị tổn thương v{ b ị tấn công t ừ mọi phía. Hãy bảo v ệ thanh danh và uy tín thật k ỹ lưỡng. Luôn dè chừng và triệt tiêu những đòn bôi nh ọ trước khi chúng diễn ra. Trong khi đó, h~y tìm cách tiêu di ệt đ ịch th ủ bằng cách b ắn thủng bức tường uy tín c ủa họ. Sau đó bạn chỉ việc đứng im chờ công luận kết liễu họ.\n\n[8c0051c22572a5c39ba5376d21875b726b9b218da7d95a08f9ee9cf23209adaa | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 88 | nguyen_tac_05]\nGiả định thanh danh ta đ~ hoen ố và giờ đ}y ta không thể xây dựng một thanh danh mới. Muốn vậy ta phải gắn liền tên tuổi mình với một người mà hình ảnh của họ đi ngư ợc lại hình ảnh ta, như thế ta dùng thanh danh của họ để thanh minh và tôn tạo cái của ta. Chẳng hạn như đ~ lỡ mang tiếng bất lương thì th ật là khó g ột rửa, vì vậy ta cố gắng liên đới với một mẫu mực của sự lương thiện. Khi\n\n[92cac89ddfc06157024ce00280230a550182d0d544215d12d05fad08a11515b5 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 544 | nguyen_tac_40]\nLÀM CHỦ ĐỒNG TIỀN: SỰ HÀO PHÓNG CHIẾN LƯỢC 547\n\ncuối th ế kỷ XVII, dân s ố T}y Ban Nha đ~ gi ảm h ẳn m ột n ửa. T ừ 400.000 người, thủ đô Madrid lúc đó ch ỉ còn lại 150.000. Tây Ban Nha tuột xuống con dốc suy tàn và không bao giờ phục hồi lại nổi.",
+    "context_ids": [
+      "b2fd9f865a9876e8dd75210c33dad06d6e7e6f3170fc2336480ce5e5bbb34450",
+      "8c0051c22572a5c39ba5376d21875b726b9b218da7d95a08f9ee9cf23209adaa",
+      "92cac89ddfc06157024ce00280230a550182d0d544215d12d05fad08a11515b5"
+    ],
+    "context_chars": 1537,
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 11.29240000000209
+  },
+  {
+    "query_id": "d7-dev-09",
+    "question": "Theo sách, việc khiến đối phương phải đến với mình tác động thế nào đến kế hoạch ban đầu của họ?",
+    "filter_applied": null,
+    "top3": [
+      {
+        "id": "1b1d6146f0d665429e539c5e31241e9c466325c9ab9b4e2dd9432d9943a888ec",
+        "rank": 1,
+        "score": 0.23123639561164994,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 411,
+        "section": "nguyen_tac_29",
+        "hit": false
+      },
+      {
+        "id": "6603c120c7fac009279459395d519af3d51c1d43a3871533e651459b0da9d452",
+        "rank": 2,
+        "score": 0.20868399351444597,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 486,
+        "section": "nguyen_tac_35",
+        "hit": false
+      },
+      {
+        "id": "a88e750ce987748f559f454823b3deeacb53b7570f6a732e34dd3488a2b7c81f",
+        "rank": 3,
+        "score": 0.20137127532364846,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 673,
+        "section": "nguyen_tac_48",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1b1d6146f0d665429e539c5e31241e9c466325c9ab9b4e2dd9432d9943a888ec",
+        "rank": 1,
+        "page": 411,
+        "hit": false
+      },
+      {
+        "id": "6603c120c7fac009279459395d519af3d51c1d43a3871533e651459b0da9d452",
+        "rank": 2,
+        "page": 486,
+        "hit": false
+      },
+      {
+        "id": "a88e750ce987748f559f454823b3deeacb53b7570f6a732e34dd3488a2b7c81f",
+        "rank": 3,
+        "page": 673,
+        "hit": false
+      }
+    ],
+    "context": "[1b1d6146f0d665429e539c5e31241e9c466325c9ab9b4e2dd9432d9943a888ec | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 411 | nguyen_tac_29]\nTuy nhiên nếu so sánh giữa việc bám quá cứng vào kế hoạch hoặc kế hoạch hóa quá tr ớn, với một k ế hoạch mơ h ồ và khuynh hướng tùy cơ ứng biến thì hầu hết chúng ta s ẽ thiệt nhiều hơn khi\n\n[6603c120c7fac009279459395d519af3d51c1d43a3871533e651459b0da9d452 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 486 | nguyen_tac_35]\nKhi b ắt đầu kế hoạch, ta ti ến hành r ất chậm, rồi đến lúc thuận tiện ta liền tăng tốc, khiến họ cảm thấy mọi việc ồ ạt diễn ra cùng lúc. Ai thi ếu thời gian suy nghĩ, ngư ời ấy sẽ phạm sai l ầm. Đ}y l{ k ỹ thuật mà Machiavelli khâm ph ục nơi Cesare Borgia, vì đang trong ti ến trình thương lư ợng, Cesare đ ột ngột thúc gi ục đ ối phương ph ải đưa ra quy ết đ ịnh, khi ến h ọ hụt hẫng và hỏng kế hoạch thời gian. Vì có ai d|m để Cesare phải chờ?\n\n[a88e750ce987748f559f454823b3deeacb53b7570f6a732e34dd3488a2b7c81f | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 673 | nguyen_tac_48]\nVà nếu làm theo học thuyết T}y phương l{ t ập trung vào t ừng vùng duy nh ất, ông ta s ẽ trở thành cái bia b ất động để đối phương bao v}y. C|ch đ|nh theo kiểu cờ v}y l{ v}y h~m đ ầu óc đối thủ, dùng chiến tranh tâm lý, tuyên truy ền v ận đ ộng, cùng v ới các chi ến thu ật khiêu khích đ ể l{m đ ối phương r ối ren mà xu ống tinh th ần. Qu}n đ ội Cộng s ản của Mao cũng |p d ụng chiến lư ợc như th ế - thiên hình vạn trạng, khiến đối phương rối trí và kinh hãi.",
+    "context_ids": [
+      "1b1d6146f0d665429e539c5e31241e9c466325c9ab9b4e2dd9432d9943a888ec",
+      "6603c120c7fac009279459395d519af3d51c1d43a3871533e651459b0da9d452",
+      "a88e750ce987748f559f454823b3deeacb53b7570f6a732e34dd3488a2b7c81f"
+    ],
+    "context_chars": 1511,
+    "hit1": false,
+    "hit3": false,
+    "hitk": false,
+    "context_hit": false,
+    "elapsed_ms": 13.540399999783403
+  },
+  {
+    "query_id": "d7-dev-10",
+    "question": "Theo sách, vì sao chiến thắng bằng lý luận có thể gây bất lợi lâu dài?",
+    "filter_applied": null,
+    "top3": [
+      {
+        "id": "35a242fde1eca2251d2828acd1516a3e72d43fe2435fb848356c2f279a624679",
+        "rank": 1,
+        "score": 0.37508374269453676,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 140,
+        "section": "nguyen_tac_09",
+        "hit": false
+      },
+      {
+        "id": "3a073d1129bcbf928686993ff285831bac5bd53ec8a8c814d181d9cb487c4d09",
+        "rank": 2,
+        "score": 0.37508374269453676,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 138,
+        "section": "nguyen_tac_09",
+        "hit": false
+      },
+      {
+        "id": "3ed43aa59525381c9783efda70141784fffbffb1fc7e6d1be26e6540ebab786b",
+        "rank": 3,
+        "score": 0.37508374269453676,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 144,
+        "section": "nguyen_tac_09",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "35a242fde1eca2251d2828acd1516a3e72d43fe2435fb848356c2f279a624679",
+        "rank": 1,
+        "page": 140,
+        "hit": false
+      },
+      {
+        "id": "3a073d1129bcbf928686993ff285831bac5bd53ec8a8c814d181d9cb487c4d09",
+        "rank": 2,
+        "page": 138,
+        "hit": false
+      },
+      {
+        "id": "3ed43aa59525381c9783efda70141784fffbffb1fc7e6d1be26e6540ebab786b",
+        "rank": 3,
+        "page": 144,
+        "hit": false
+      }
+    ],
+    "context": "[35a242fde1eca2251d2828acd1516a3e72d43fe2435fb848356c2f279a624679 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 140 | nguyen_tac_09]\nCHIẾN THẮNG BẰNG HÀNH ĐỘNG, CHỨ KHÔNG BẰNG LÝ LUẬN 143\n\n[3a073d1129bcbf928686993ff285831bac5bd53ec8a8c814d181d9cb487c4d09 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 138 | nguyen_tac_09]\nCHIẾN THẮNG BẰNG HÀNH ĐỘNG, CHỨ KHÔNG BẰNG LÝ LUẬN 141\n\n[3ed43aa59525381c9783efda70141784fffbffb1fc7e6d1be26e6540ebab786b | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 144 | nguyen_tac_09]\nCHIẾN THẮNG BẰNG HÀNH ĐỘNG, CHỨ KHÔNG BẰNG LÝ LUẬN 147",
+    "context_ids": [
+      "35a242fde1eca2251d2828acd1516a3e72d43fe2435fb848356c2f279a624679",
+      "3a073d1129bcbf928686993ff285831bac5bd53ec8a8c814d181d9cb487c4d09",
+      "3ed43aa59525381c9783efda70141784fffbffb1fc7e6d1be26e6540ebab786b"
+    ],
+    "context_chars": 577,
+    "hit1": false,
+    "hit3": false,
+    "hitk": false,
+    "context_hit": false,
+    "elapsed_ms": 10.988900000029389
+  },
+  {
+    "query_id": "d7-dev-11",
+    "question": "Trong phạm vi Nguyên tắc 13, khi cần đồng minh giúp đỡ, tác giả đề nghị nhấn mạnh điều gì thay vì nhắc lại ân tình cũ?",
+    "filter_applied": null,
+    "top3": [
+      {
+        "id": "e27e8bc2a45b271584106ccc89a56aac0a0c2413debbe0bbab7420b5a20852f0",
+        "rank": 1,
+        "score": 0.24895786613409,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 178,
+        "section": "nguyen_tac_13",
+        "hit": true
+      },
+      {
+        "id": "d68fdad801aba18ff0cbde462837c1107614f1db819065f61c7b996650a08236",
+        "rank": 2,
+        "score": 0.18604312980505222,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 501,
+        "section": "nguyen_tac_36",
+        "hit": false
+      },
+      {
+        "id": "50ddef777abf2822e4322c7421794802113e9eb74848a64a2c2981e166925ef2",
+        "rank": 3,
+        "score": 0.1829038207411429,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 182,
+        "section": "nguyen_tac_13",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "e27e8bc2a45b271584106ccc89a56aac0a0c2413debbe0bbab7420b5a20852f0",
+        "rank": 1,
+        "page": 178,
+        "hit": true
+      },
+      {
+        "id": "d68fdad801aba18ff0cbde462837c1107614f1db819065f61c7b996650a08236",
+        "rank": 2,
+        "page": 501,
+        "hit": false
+      },
+      {
+        "id": "50ddef777abf2822e4322c7421794802113e9eb74848a64a2c2981e166925ef2",
+        "rank": 3,
+        "page": 182,
+        "hit": false
+      }
+    ],
+    "context": "[e27e8bc2a45b271584106ccc89a56aac0a0c2413debbe0bbab7420b5a20852f0 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 178 | nguyen_tac_13]\nNGUYÊN TẮC\n\n13\n\nNHỬ BẰNG TƯ LỢI, ĐỪNG KÊU GỌI LÒNG THƯƠNG, KHÔNG ĐỀ CẬP ÂN TÌNH\n\nKhi c ần đ ồng minh giúp đ ỡ, đ ừng nh ắc nh ở việc h ắn thụ ân ta trong quá kh ứ. H ắn s ẽ tìm cách ph ớt l ờ. Ngược lại, hãy cho h ắn thấy những lợi ích s ẽ đạt được khi hai bên liên k ết, v{ ta h~y phóng đ ại kh oản l ợi nhuận ấy nhiều lên. H ắn sẽ nhiệt tình tr ợ giúp khi bi ết rõ có lời.\n\n[d68fdad801aba18ff0cbde462837c1107614f1db819065f61c7b996650a08236 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 501 | nguyen_tac_36]\n48 NGUYÊN TẮC CHỦ CHỐT CỦA QUYỀN LỰC Robert Greene & Joost Elffers 504\n\nbao giờ nhắc đến lời nói dối trước đó, m{ chỉ nhấn mạnh đến xuất xứ bình dân của mình. Hãy nh ớ: V ới nh ững chuy ện không đ|ng, t ầm phào và b ực bội nhỏ nhoi, bạn nên phớt lờ và khinh bạc. Đừng bao giờ cho thấy mình bị ảnh hưởng hoặc xúc phạm, vì như vậy vấn đề chỉ càng hiển nhiên hơn m{ thôi.\n\n[50ddef777abf2822e4322c7421794802113e9eb74848a64a2c2981e166925ef2 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 182 | nguyen_tac_13]\nViệc này không khác với nhắc khéo r ằng các anh hàm ân tôi, bây gi ờ phải có nghĩa v ụ b|o đ|p, nếu không sẽ cảm thấy tội lỗi. Ơn nghĩa nh ững ngày qua? Tình thân h ữu nghị? Mặc! Một Athens hùng m ạnh tin ch ắc là n ếu những đồng minh khác lên án h ọ bội nghĩa khi b ỏ rơi Corinth, thì những đ ồng minh n{y cũng không d|m ph| v ỡ liên k ết.",
+    "context_ids": [
+      "e27e8bc2a45b271584106ccc89a56aac0a0c2413debbe0bbab7420b5a20852f0",
+      "d68fdad801aba18ff0cbde462837c1107614f1db819065f61c7b996650a08236",
+      "50ddef777abf2822e4322c7421794802113e9eb74848a64a2c2981e166925ef2"
+    ],
+    "context_chars": 1497,
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 17.365200000313052
+  },
+  {
+    "query_id": "d7-dev-12",
+    "question": "Theo sách, cần có điều kiện gì trước khi thỉnh thoảng ẩn mặt để tạo sự quý hiếm, và việc ẩn mặt nhằm tác động gì đến tập thể?",
+    "filter_applied": null,
+    "top3": [
+      {
+        "id": "7be0c049d8e6ba7ff47a9114e95f75782765ac0510f515092a55e1fbf92bd6ae",
+        "rank": 1,
+        "score": 0.2736668074505581,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 108,
+        "section": "nguyen_tac_06",
+        "hit": false
+      },
+      {
+        "id": "2f4a720b4f2875d8682e6c5e1ffcf67d178b5803dd303b2418094456acd646f1",
+        "rank": 2,
+        "score": 0.265956320358949,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 209,
+        "section": "nguyen_tac_16",
+        "hit": true
+      },
+      {
+        "id": "039713e30c7af4905a70121d11a7968338999b0f2826e596b246df0286b87719",
+        "rank": 3,
+        "score": 0.22513218717860414,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 106,
+        "section": "nguyen_tac_06",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "7be0c049d8e6ba7ff47a9114e95f75782765ac0510f515092a55e1fbf92bd6ae",
+        "rank": 1,
+        "page": 108,
+        "hit": false
+      },
+      {
+        "id": "2f4a720b4f2875d8682e6c5e1ffcf67d178b5803dd303b2418094456acd646f1",
+        "rank": 2,
+        "page": 209,
+        "hit": true
+      },
+      {
+        "id": "039713e30c7af4905a70121d11a7968338999b0f2826e596b246df0286b87719",
+        "rank": 3,
+        "page": 106,
+        "hit": false
+      }
+    ],
+    "context": "[7be0c049d8e6ba7ff47a9114e95f75782765ac0510f515092a55e1fbf92bd6ae | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 108 | nguyen_tac_06]\nthường. Điều đó cũng có nghĩa l{ công chúng luôn chú ý đ ến ông, luôn quan tâm xem chiêu thức tiếp theo là gì. Nếu địa vị xã hội không cho phép b ạn ẩn mình hoàn toàn thì bạn cũng có thể tìm cách làm cho mình bớt hiển lộ đi. Thỉnh thoảng bạn hãy x ử sự không theo c|ch m{ ngư ời kh|c nghĩ v ề bạn. Như thế bạn làm cho m ọi ngư ời xung quanh b ị động, tạo ra lo ại chú ý giúp b ạn có s ức mạnh. Được l{m đúng c|ch, vi ệc tạo tác bí ẩn có thể l{m cho đối phương từ quan ngại biến thành hoảng loạn.\n\n[2f4a720b4f2875d8682e6c5e1ffcf67d178b5803dd303b2418094456acd646f1 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 209 | nguyen_tac_16]\nNGUYÊN TẮC\n\n16\n\nBIẾT ĐẦU CƠ SỰ HIỆN DIỆN\n\nC{ng lưu h{nh nhi ều thì tiền càng m ất giá: M ọi người càng th ấy và nghe ta càng nhi ều thì ta càng tr ở nên tầm thường. Khi đ~ có vị trí trong tập thể, thỉnh thoảng ta nên ẩn mặt để mọi người bàn tán, th ậm chí ngưỡng mộ. Ta ph ải biết lúc nào nên lui gót . Hãy t ạo thêm giá trị bằng sự quý hiếm.\n\n[039713e30c7af4905a70121d11a7968338999b0f2826e596b246df0286b87719 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 106 | nguyen_tac_06]\nB ạn hãy nh ớ: H ầu h ết m ọi ngư ời đ ều th ẳng th ắn v{ như quyển sách m ở, ít ch ịu khó ki ểm soát l ời nói hay con ngư ời mình, những h{nh động của họ có thể bị biết trước. Chỉ cần ít nói, giữ im lặng, thỉnh thoảng ậm ừ vài câu khó hi ểu, chủ động tỏ ra bất nhất v{ cư xử lạ lùng một cách thật tinh vi thì b ạn sẽ tỏa ra một vầng bí ẩn. Thiên hạ quanh bạn sẽ làm cho vầng bí ẩn ấy lớn thêm lên bằng đủ loại giải đo|n.",
+    "context_ids": [
+      "7be0c049d8e6ba7ff47a9114e95f75782765ac0510f515092a55e1fbf92bd6ae",
+      "2f4a720b4f2875d8682e6c5e1ffcf67d178b5803dd303b2418094456acd646f1",
+      "039713e30c7af4905a70121d11a7968338999b0f2826e596b246df0286b87719"
+    ],
+    "context_chars": 1673,
+    "hit1": false,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 16.504600000189384
+  },
+  {
+    "query_id": "d7-dev-13",
+    "question": "Theo sách, vì sao tự cô lập trong một nơi có vẻ an toàn lại làm tăng rủi ro?",
+    "filter_applied": null,
+    "top3": [
+      {
+        "id": "52c5dfeb0cdfee18d1023724b5767f80e84b570a1ee41af722686c2a309a2362",
+        "rank": 1,
+        "score": 0.23077639209943568,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 233,
+        "section": "nguyen_tac_18",
+        "hit": true
+      },
+      {
+        "id": "d7d30318672da41f925fc4d768c3594b0a4999ef6acb8b4566964aafb334ccca",
+        "rank": 2,
+        "score": 0.19030923361262272,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 146,
+        "section": "nguyen_tac_10",
+        "hit": false
+      },
+      {
+        "id": "201a3d27dbbc498a09a4a416c3ad9ccf3d7e1c601279bb07426da546181e1d26",
+        "rank": 3,
+        "score": 0.17465958497822998,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 239,
+        "section": "nguyen_tac_18",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "52c5dfeb0cdfee18d1023724b5767f80e84b570a1ee41af722686c2a309a2362",
+        "rank": 1,
+        "page": 233,
+        "hit": true
+      },
+      {
+        "id": "d7d30318672da41f925fc4d768c3594b0a4999ef6acb8b4566964aafb334ccca",
+        "rank": 2,
+        "page": 146,
+        "hit": false
+      },
+      {
+        "id": "201a3d27dbbc498a09a4a416c3ad9ccf3d7e1c601279bb07426da546181e1d26",
+        "rank": 3,
+        "page": 239,
+        "hit": false
+      }
+    ],
+    "context": "[52c5dfeb0cdfee18d1023724b5767f80e84b570a1ee41af722686c2a309a2362 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 233 | nguyen_tac_18]\nNGUYÊN TẮC\n\n18\n\nĐỪNG X]Y PH\\O Đ[I ĐỂ TỰ VỆ, ĐỪNG TỰ CÔ LẬP\n\nThế giới đầy nguy hi ểm và k ẻ thù có mặt khắp nơi – ai cũng phải lo phòng th}n. Ph|o đ{i có v ẻ l{ nơi an to{n nhất. Nhưng tình tr ạng cô l ập này lại an ít nguy nhi ều, bởi vì ta sẽ mất nguồn thông tin, trở thành một con mồi quá l ộ liễu và d ễ bắn h ạ. T ốt hơn ta nên tr{ tr ộn vào những ngư ời xung quanh v{ lôi kéo liên minh. Đ|m đông sẽ che chắn cho bạn trước mũi dùi thù địch.\n\n[d7d30318672da41f925fc4d768c3594b0a4999ef6acb8b4566964aafb334ccca | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 146 | nguyen_tac_10]\nTrong kinh doanh anh g ặp toàn r ủi ro và b ạn bè có th ế lực bắt đầu xa lánh. Có lần Dujarier đư ợc mời dự đại tiệc, nơi quy t ụ nhiều gương m ặt tr ẻ giàu có nh ất Paris. Lola đòi đi theo nhưng\n\n[201a3d27dbbc498a09a4a416c3ad9ccf3d7e1c601279bb07426da546181e1d26 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 239 | nguyen_tac_18]\ntoàn cảnh thực tế xung quanh. Không gian thao tác b ị thu hẹp, họ trở thành nh ững m ục tiêu d ễ bị bắn h ạ. Trong chi ến tranh cũng như nhiều trò chơi chi ến lược khác, theo sau s ự cô lập thường là việc bại trận và mạng vong. Sau khi gặp nguy biến, bạn cố gắng chống lại thói quen tự cô lập mình. Ngư ợc lại, hãy t ạo đi ều kiện cho đ ồng minh đ ến với ta, hình thành liên minh mới, dấn thân vào nhiều cộng đồng khác nữa. Đó l{ m|nh khóe của người quyền lực từ nhiều thế kỷ nay.",
+    "context_ids": [
+      "52c5dfeb0cdfee18d1023724b5767f80e84b570a1ee41af722686c2a309a2362",
+      "d7d30318672da41f925fc4d768c3594b0a4999ef6acb8b4566964aafb334ccca",
+      "201a3d27dbbc498a09a4a416c3ad9ccf3d7e1c601279bb07426da546181e1d26"
+    ],
+    "context_chars": 1534,
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 13.147099999969214
+  },
+  {
+    "query_id": "d7-dev-14",
+    "question": "Trong ví dụ đào giếng của sách, đào sâu một giếng thay vì đào nhiều giếng qua loa minh họa cho cách phân bổ sức mạnh nào?",
+    "filter_applied": null,
+    "top3": [
+      {
+        "id": "1360244bff7b52b05183c493ea34477eba2648b885fedf8011e8f5f096c61336",
+        "rank": 1,
+        "score": 0.141735697394536,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 297,
+        "section": "nguyen_tac_23",
+        "hit": true
+      },
+      {
+        "id": "35c6221bfcbea13a60aab1f0378287fc28d49db5483fddfac51608a4152fc4ff",
+        "rank": 2,
+        "score": 0.12753425131016768,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 388,
+        "section": "nguyen_tac_28",
+        "hit": false
+      },
+      {
+        "id": "ad7ec76fb33ad250392beba9e152e25bc00403e378ff1507c9a6ccc88861a09a",
+        "rank": 3,
+        "score": 0.12419302934874533,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 492,
+        "section": "nguyen_tac_36",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1360244bff7b52b05183c493ea34477eba2648b885fedf8011e8f5f096c61336",
+        "rank": 1,
+        "page": 297,
+        "hit": true
+      },
+      {
+        "id": "35c6221bfcbea13a60aab1f0378287fc28d49db5483fddfac51608a4152fc4ff",
+        "rank": 2,
+        "page": 388,
+        "hit": false
+      },
+      {
+        "id": "ad7ec76fb33ad250392beba9e152e25bc00403e378ff1507c9a6ccc88861a09a",
+        "rank": 3,
+        "page": 492,
+        "hit": false
+      }
+    ],
+    "context": "[1360244bff7b52b05183c493ea34477eba2648b885fedf8011e8f5f096c61336 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 297 | nguyen_tac_23]\nNGUYÊN TẮC\n\n23\n\nTẬP TRUNG LỰC LƯỢNG\n\nDuy trì sức mạnh v{ năng lực bằng cách giữ chúng tập trung vào chỗ mạnh nhất. Nếu đ{o gi ếng h~y đ{o c{ng sâu càng t ốt, thay vì đ{o qua loa gi ếng này r ồi nh ảy sang đ{o gi ếng mới. Khi mưu c ầu ngu ồn q uyền lực để đưa mình lên, ta h~y tìm m ột ngư ời đ ỡ đầu chủ chốt, một con bò s ữa s ẽ cho ta s ữa trong kho ảng th ời gian dài sắp tới.\n\n[35c6221bfcbea13a60aab1f0378287fc28d49db5483fddfac51608a4152fc4ff | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 388 | nguyen_tac_28]\nĐi không h ết đư ờng, làm không h ết lòng là t ự đào m ồ. Nếu ra tay m{ không đư ợc ni ềm tin tr ọn v ẹn, ta đ~ t ự dựng chướng ngại trên đường của mình. Khi gặp vấn đề, ta sẽ lúng túng, tưởng có nhi ều lựa chọn nhưng th ật ra thì không, t ừ đó tạo thêm nhiều vấn đề nữa. Nhác th ấy thợ săn, chú th ỏ rừng hoảng sợ đ}m đầu chạy ngay vào bẫy sập. Do dự tạo kẽ hở, táo bạo bịt kín chúng. Khi phải mất thời gian suy nghĩ đắn đo, ta đ~ tạo ra kẽ hở, tạo cơ hội cho thiên hạ suy nghĩ.\n\n[ad7ec76fb33ad250392beba9e152e25bc00403e378ff1507c9a6ccc88861a09a | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 492 | nguyen_tac_36]\nCuối cùng thì con voi lại thua con chuột, phải nhục nhã rút quân về. Liệu Wilson còn cách làm nào khác? Còn, vì ông ta có th ể yêu cầu chính quy ền Carranza truy lùng Villa. Ho ặc gi ả Mỹ có th ể thương lư ợng v ới m ột s ố đào binh c ủa Villa đ ể bắt s ống ông ta. Hoặc giăng b ẫy t ại biên gi ới ch ờ Villa ti ến qu ân l ần n ữa. Ho ặc Wilson có th ể chọn th|i đ ộ là ph ớt l ờ phứt r ồi, đ ể rồi theo th ời gian, chính qu}n đội Carranza sẽ làm thịt Villa.",
+    "context_ids": [
+      "1360244bff7b52b05183c493ea34477eba2648b885fedf8011e8f5f096c61336",
+      "35c6221bfcbea13a60aab1f0378287fc28d49db5483fddfac51608a4152fc4ff",
+      "ad7ec76fb33ad250392beba9e152e25bc00403e378ff1507c9a6ccc88861a09a"
+    ],
+    "context_chars": 1731,
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 12.80270000006567
+  },
+  {
+    "query_id": "d7-dev-15",
+    "question": "Trong phạm vi Nguyên tắc 29, lập kế hoạch cần tính đến những yếu tố nào có thể khiến công sức bị đổ bể?",
+    "filter_applied": null,
+    "top3": [
+      {
+        "id": "63e08b725bb05f4630bfb4cc4358377fb48472aed1e074a999dc001c89d1eebb",
+        "rank": 1,
+        "score": 0.23892841414700408,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 399,
+        "section": "nguyen_tac_29",
+        "hit": true
+      },
+      {
+        "id": "34ef60fa05701585e282f6e95048194a41c768c534d27e910ec164345d34b17b",
+        "rank": 2,
+        "score": 0.2295089733355945,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 400,
+        "section": "nguyen_tac_29",
+        "hit": false
+      },
+      {
+        "id": "5ee2f85e052218bcd6389e7b4da0430ba9c8fb02dcdbd4ded8e117e2078b3f92",
+        "rank": 3,
+        "score": 0.22097499221391315,
+        "source_id": "48-nguyen-tac-chu-chot",
+        "page": 44,
+        "section": "nguyen_tac_03",
+        "hit": false
+      }
+    ],
+    "candidates": [
+      {
+        "id": "63e08b725bb05f4630bfb4cc4358377fb48472aed1e074a999dc001c89d1eebb",
+        "rank": 1,
+        "page": 399,
+        "hit": true
+      },
+      {
+        "id": "34ef60fa05701585e282f6e95048194a41c768c534d27e910ec164345d34b17b",
+        "rank": 2,
+        "page": 400,
+        "hit": false
+      },
+      {
+        "id": "5ee2f85e052218bcd6389e7b4da0430ba9c8fb02dcdbd4ded8e117e2078b3f92",
+        "rank": 3,
+        "page": 44,
+        "hit": false
+      }
+    ],
+    "context": "[63e08b725bb05f4630bfb4cc4358377fb48472aed1e074a999dc001c89d1eebb | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 399 | nguyen_tac_29]\nNGUYÊN TẮC\n\n29\n\nTRÙ LIỆU TƯƠNG LAI: VẠCH KẾ HOẠCH NHẤT QU\\N ĐẾN TẬN CÙNG\n\nMục đích l{ tất cả. Hãy lập kế hoạch cho đến cùng đích, nghi nhận mọi hậu quả, chướng ngại và may r ủi khả dĩ đ|nh đ ổ công s ức c ủa mình v{ l{m ngư ời khác vinh quang. Hãy lên k ế hoạch cho đến cùng, bạn sẽ không bị các tình hu ống lấn át và b ạn sẽ biết khi nào nên d ừng. Hãy nh ẹ nhàng d ẫn l ối cho cơ may và góp ph ần đ ịnh hướng tương lai bằng cách tiên liệu thật xa.\n\n[34ef60fa05701585e282f6e95048194a41c768c534d27e910ec164345d34b17b | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 400 | nguyen_tac_29]\nTRÙ LIỆU TƯƠNG LAI: VẠCH KẾ HOẠCH NHẤT QUÁN ĐẾN TẬN CÙNG 403\n\nVI PHẠM NGUYÊN TẮC\n\n[5ee2f85e052218bcd6389e7b4da0430ba9c8fb02dcdbd4ded8e117e2078b3f92 | data/20.1.11. 48 nguyên tắc chủ chốt.pdf | page 44 | nguyen_tac_03]\nTrong khi dựng kế đ|nh lừa, chỉ cần đối tượng nảy sinh chút nghi ngờ l{ xem như k ế hoạch của bạn bị đổ bể. Đừng để cho họ có bất kỳ cơ hội n{o đo|n ra ch ủ tâm của bạn: Người ta kéo kê nh ững con c| trên đư ờng để đ|nh lạc hướng bầy chó như th ế nào thì bây giờ bạn cũng l{m như th ế đó. H~y l{m b ộ thật thà, phát tín hi ệu mập m ờ, d ựng lên nh ững nghi trang khơi g ợi s ự thèm mu ốn. Vì không phân bi ệt đư ợc th ực hư, đ ối tư ợng s ẽ không th ể phát hi ện mục đích của bạn.\n\nVI PHẠM NGUYÊN TẮC",
+    "context_ids": [
+      "63e08b725bb05f4630bfb4cc4358377fb48472aed1e074a999dc001c89d1eebb",
+      "34ef60fa05701585e282f6e95048194a41c768c534d27e910ec164345d34b17b",
+      "5ee2f85e052218bcd6389e7b4da0430ba9c8fb02dcdbd4ded8e117e2078b3f92"
+    ],
+    "context_chars": 1443,
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 14.586100000087754
+  }
+]

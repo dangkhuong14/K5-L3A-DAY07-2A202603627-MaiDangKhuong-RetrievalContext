@@ -59,16 +59,34 @@ Code: [src/dense.py](src/dense.py); cách chạy: [src/README.md](src/README.md)
 
 - [x] Có TF-IDF offline trong `starter/baseline.py`.
 - [x] Chạy TF-IDF trên 15 câu dev có đáp án; lưu `starter/results/tfidf-dev/`.
-- [ ] Viết adapter lexical để agent gọi được cùng giao diện với dense.
-- [ ] Ghi cách tách từ dùng cho lexical.
-- [ ] Ghi rõ cách xử lý filter; TF-IDF mẫu hiện bỏ qua filter.
+- [x] Viết adapter lexical để agent gọi được cùng giao diện với dense.
+- [x] Ghi cách tách từ dùng cho lexical.
+- [x] Ghi rõ cách xử lý filter; TF-IDF mẫu hiện bỏ qua filter.
+
+Code: [src/lexical.py](src/lexical.py) (BM25 `k1=1.5`, `b=0.75`), TF-IDF bọc lại trong [src/retrievers.py](src/retrievers.py). Hai cách tách từ: `syllable` (NFC + casefold, mỗi token là một âm tiết `\w+`) và `char<N>` (bỏ khoảng trắng/dấu câu rồi lấy n-gram ký tự, chịu được lỗi tách chữ PDF như `b ắt đầu`). BM25 lọc metadata `section`/`chapter_number` trước khi xếp hạng, cùng khóa với dense; TF-IDF giữ nguyên hành vi mẫu là bỏ qua filter.
 
 ### 2.3. Hybrid retrieval
 
-- [ ] Lấy candidate từ dense và lexical trên cùng corpus.
-- [ ] Hợp nhất ranking, ví dụ bằng RRF; không cộng score thô khác thang đo.
-- [ ] Loại candidate trùng ID sau khi hợp nhất.
-- [ ] Trả ranking cuối để so sánh cùng cutoff top-3.
+- [x] Lấy candidate từ dense và lexical trên cùng corpus.
+- [x] Hợp nhất ranking, ví dụ bằng RRF; không cộng score thô khác thang đo.
+- [x] Loại candidate trùng ID sau khi hợp nhất.
+- [x] Trả ranking cuối để so sánh cùng cutoff top-3.
+
+Code: [src/hybrid.py](src/hybrid.py). Lấy top-20 từ dense và BM25 cùng filter, RRF `k=60` (`score = Σ 1/(60 + rank)`), gộp theo chunk ID, giữ rank thành phần trong `components`. Unit test: [tests/test_lexical_hybrid.py](tests/test_lexical_hybrid.py).
+
+Kết quả dev (15 câu có đáp án, query gốc, filter của câu hỏi, top-3), lưu tại `results/retrieval-dev/`:
+
+| Phương pháp | Hit@1 | Evidence Hit@3 | Context (800 ký tự) | Context (2000 ký tự) | Median ms/câu |
+|---|---:|---:|---:|---:|---:|
+| TF-IDF (bỏ filter) | 9/15 | 10/15 | 9/15 | 10/15 | 13 |
+| BM25 syllable | 11/15 | 12/15 | 11/15 | 12/15 | 14 |
+| BM25 char3 | 11/15 | 13/15 | 11/15 | 13/15 | 31 |
+| BM25 char4 | 11/15 | 13/15 | 11/15 | 13/15 | 29 |
+| Dense | 6/15 | 11/15 | 6/15 | 11/15 | 205 |
+| Hybrid RRF (dense + BM25 syllable) | 10/15 | 12/15 | 10/15 | 12/15 | 233 |
+| Hybrid RRF (dense + BM25 char4) | 11/15 | 13/15 | 11/15 | 13/15 | 227 |
+
+Bỏ filter (`k3-b2000-nofilter`) làm giảm Hit@3 của dense, BM25 char4 và hybrid char4 mỗi phương pháp 1 câu.
 
 ### 2.4. Agent dùng model thật
 
